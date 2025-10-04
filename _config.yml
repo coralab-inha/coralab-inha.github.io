@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 테스트용 연구실 홈페이지 # the website title (if blank, full name will be used instead)
+title: CORA LAB # the website title (if blank, full name will be used instead)
+logo: "/assets/img/logo.png"
 first_name: 박
 middle_name: 성
 last_name: 준이올시다.
@@ -151,6 +152,8 @@ collections:
       layout: post
     output: true
   projects:
+    output: true
+  people:
     output: true
 
 # -----------------------------------------------------------------------------
