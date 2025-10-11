@@ -2,14 +2,12 @@
 layout: page
 title: "Niels Bohr"
 permalink: /people/bohr/
-category: msphd
-image: /assets/img/people/bohr.jpg
-position: Integrated M.S./Ph.D. Student
-course: Quantum Physics
+category: phd
+image: /assets/img/people/sample_people.png
+position: Ph.D. Candidate
+interests: Quantum Mechanics, Atomic Structure, Theoretical Physics
 email: bohr@lab.ac.kr
 ---
-
-# Niels Bohr
 
 <div class="row">
   <div class="col-md-4">
@@ -24,22 +22,17 @@ email: bohr@lab.ac.kr
 ---
 
 ## 🎓 Education
-- B.S. in Physics, University of Copenhagen
+- M.S. in Physics, University of Copenhagen
 
 ---
 
 ## 💼 Experience
-- Graduate Researcher, Quantum Structure Group  
-- Collaborator, Copenhagen Interpretation Project
+- Research Assistant, Quantum Systems Lab  
+- Modeled electron transitions and atomic spectra
 
 ---
 
 ## 🔍 Research Interests
+- Quantum Mechanics  
 - Atomic Structure  
-- Quantum Theory  
-- Particle-Wave Duality
-
----
-
-## 📚 Publications
-- [N. Bohr, *On the Constitution of Atoms and Molecules*, Philosophical Magazine, 1913](#)
+- Theoretical Physics

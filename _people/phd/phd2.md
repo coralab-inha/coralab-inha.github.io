@@ -3,13 +3,11 @@ layout: page
 title: "Marie Curie"
 permalink: /people/curie/
 category: phd
-image: /assets/img/people/curie.jpg
+image: /assets/img/people/sample_people.png
 position: Ph.D. Candidate
-course: Radiochemistry
+interests: Radiation Physics, Material Science, Medical Imaging
 email: curie@lab.ac.kr
 ---
-
-# Marie Curie
 
 <div class="row">
   <div class="col-md-4">
@@ -24,23 +22,17 @@ email: curie@lab.ac.kr
 ---
 
 ## 🎓 Education
-- M.S. in Chemistry, University of Paris (Sorbonne)  
-- B.S. in Physics, University of Warsaw
+- M.S. in Physics, University of Paris
 
 ---
 
 ## 💼 Experience
-- Research Assistant, Radium Institute  
-- Published multiple papers on radioactive decay
+- Researcher, Radiation Materials Lab  
+- Conducted experiments on radioactive element properties
 
 ---
 
 ## 🔍 Research Interests
-- Radioactivity  
-- Isotopic Separation  
-- Nuclear Chemistry
-
----
-
-## 📚 Publications
-- [M. Curie et al., *On Radioactive Substances*, Journal of Chemistry, 1903](#)
+- Radiation Physics  
+- Material Science  
+- Medical Imaging

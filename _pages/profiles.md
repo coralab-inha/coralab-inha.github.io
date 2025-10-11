@@ -5,46 +5,53 @@ permalink: /people/
 description: Members of the Lab
 nav: true
 nav_order: 2
-display_categories: [professor, phd, msphd, master, intern]
+display_categories: [professor, phd, master]
 horizontal: false
 ---
 
 <!-- pages/people.md -->
 <div class="people">
 {% if page.display_categories %}
-  <!-- Display categorized members -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category | capitalize }}</h2>
-  </a>
+  <h2 class="category mt-4 mb-3">{{ category | capitalize }}</h2>
 
   {% assign categorized_people = site.people | where: "category", category %}
 
-  <div class="container mt-3">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      {% for person in categorized_people %}
-      <div class="col">
-        <div class="card h-100 shadow-sm border-0">
-          <a href="{{ person.url }}" style="text-decoration:none; color:inherit;">
+  <div class="container">
+    {% for person in categorized_people %}
+    <a href="{{ person.url }}" style="text-decoration: none; color: inherit;">
+      <div class="card mb-3 shadow-sm border-0 hover-shadow" style="max-width: 900px; margin: 0 auto; transition: transform 0.2s;">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-3 text-center">
             {% if person.image %}
-              <img src="{{ person.image }}" class="card-img-top rounded" alt="{{ person.title }}">
+              <img src="{{ person.image }}" class="img-fluid rounded-start" alt="{{ person.title }}" style="width: 100%; height: auto; border-radius: 12px;">
+            {% else %}
+              <div style="background-color: #f0f0f0; width: 100%; height: 100%; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <span class="text-muted">No Image</span>
+              </div>
             {% endif %}
+          </div>
+          <div class="col-md-9">
             <div class="card-body">
-              <h5 class="card-title text-center fw-bold">{{ person.title }}</h5>
-              {% if person.position %}
-                <p class="card-text text-center text-muted">{{ person.position }}</p>
-              {% endif %}
-              {% if person.course %}
-                <p class="card-text text-center small">{{ person.course }}</p>
+              <h5 class="card-title fw-bold mb-2">{{ person.title }}</h5>
+              {% if person.interests %}
+                <p class="card-text text-muted mb-0">{{ person.interests }}</p>
               {% endif %}
             </div>
-          </a>
+          </div>
         </div>
       </div>
-      {% endfor %}
-    </div>
+    </a>
+    {% endfor %}
   </div>
 
   {% endfor %}
 {% endif %}
 </div>
+
+<style>
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+</style>

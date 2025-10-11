@@ -3,13 +3,11 @@ layout: page
 title: "James Clerk Maxwell"
 permalink: /people/maxwell/
 category: master
-image: /assets/img/people/maxwell.jpg
+image: /assets/img/people/sample_people.png
 position: M.S. Student
-course: Applied Electromagnetism
+interests: Electromagnetism, Optics, Mathematical Physics
 email: maxwell@lab.ac.kr
 ---
-
-# James Clerk Maxwell
 
 <div class="row">
   <div class="col-md-4">

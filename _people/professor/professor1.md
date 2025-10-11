@@ -3,14 +3,12 @@ layout: page
 title: "Prof. Albert Einstein"
 permalink: /people/einstein/
 category: professor
-image: /assets/img/people/einstein.jpg
+image: /assets/img/people/sample_people.png
 position: Professor
-course: Theoretical Physics
+interests: Theoretical Physics
 email: einstein@lab.ac.kr
 nerfies: https://nerfies.github.io/
 ---
-
-# Prof. Albert Einstein
 
 <div class="row">
   <div class="col-md-4">
