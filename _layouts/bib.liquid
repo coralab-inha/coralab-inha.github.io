@@ -253,6 +253,11 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.nerfies %}
+        <a href="{{ entry.nerfies }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-cube"></i> Nerfies
+        </a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

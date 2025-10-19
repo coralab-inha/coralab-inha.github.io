@@ -67,6 +67,17 @@ permalink: /
 
 <hr>
 
+<section id="news" class="my-5">
+  <div class="container" style="max-width: 800px;">
+    <h2 class="text-center">News</h2>
+    <div class="mt-4">
+      {% include news.liquid limit=5 %}
+    </div>
+  </div>
+</section>
+
+<hr>
+
 <!-- 1.3 Contact Section -->
 <section id="contact" class="my-5 text-center">
   <h2>Address & Contact</h2>
