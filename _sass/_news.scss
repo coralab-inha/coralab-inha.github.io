@@ -1,0 +1,34 @@
+.news {
+    .news-card { border: 1px solid rgba(0,0,0,.05); border-radius: .375rem; overflow: hidden; }
+    
+    /* 썸네일: 크롭 없이 contain */
+    .news-thumb-wrap {
+      width: 100%;
+      height: 300px;                 /* 화면에 맞춰 균일한 헤더 높이 */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;      /* ← 핵심: 크롭 없이 전체 보이게 */
+      background-color: #f8f9fa;     /* 레터박스 배경 */
+      border-radius: .375rem .375rem 0 0;
+      position: relative;
+    }
+    .news-thumb-wrap .news-thumb-link {
+      display: block; width: 100%; height: 100%;
+    }
+  
+    .news-title a,
+    .news-title-link { text-decoration: none; }
+  
+    .badge { font-weight: 500; }
+  
+    /* 카드 높이 균일화를 위한 최소한의 클램프(원하면 숫자 조절) */
+    .news-title {
+      display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+      overflow: hidden; margin-bottom: .5rem;
+    }
+    .news-excerpt {
+      display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
+      overflow: hidden; margin-bottom: .5rem;
+    }
+  }
+  
