@@ -2,56 +2,92 @@
 layout: page
 title: people
 permalink: /people/
-description: Members of the Lab
+description: people in the design research collective
 nav: true
 nav_order: 2
-display_categories: [professor, phd, master, undergraduate, alumni]
-horizontal: false
 ---
 
-<!-- pages/people.md -->
-<div class="people">
-{% if page.display_categories %}
-  {% for category in page.display_categories %}
-  <h2 class="category mt-4 mb-3">{{ category | capitalize }}</h2>
-
-  {% assign categorized_people = site.people | where: "category", category %}
-
-  <div class="container">
-    {% for person in categorized_people %}
-    <a href="{{ person.url }}" style="text-decoration: none; color: inherit;">
-      <div class="card mb-3 shadow-sm border-0 hover-shadow" style="max-width: 900px; margin: 0 auto; transition: transform 0.2s;">
-        <div class="row g-0 align-items-center">
-          <div class="col-md-3 text-center">
-            {% if person.image %}
-              <img src="{{ person.image }}" class="img-fluid rounded-start" alt="{{ person.title }}" style="width: 100%; height: auto; border-radius: 12px;">
-            {% else %}
-              <div style="background-color: #f0f0f0; width: 100%; height: 100%; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
-                <span class="text-muted">No Image</span>
-              </div>
-            {% endif %}
-          </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h5 class="card-title fw-bold mb-2">{{ person.title }}</h5>
-              {% if person.interests %}
-                <p class="card-text text-muted mb-0">{{ person.interests }}</p>
-              {% endif %}
-            </div>
-          </div>
+<div class="container">
+  <div class="row">
+    {% assign active_people = site.people | where_exp: "item", "item.category != 'alumni'" %}
+    
+    {% comment %} 
+      Start with Professor/Director 
+    {% endcomment %}
+    {% assign professors = site.people | where: "category", "professor" %}
+    {% for person in professors %}
+    <div class="col-md-4 mb-5 text-center">
+      <a href="{{ person.url | relative_url }}" style="text-decoration: none; color: inherit;">
+        <div class="mb-3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" class="img-fluid shadow-sm" style="width: 250px; height: 250px; object-fit: cover; border-radius: 2px;">
         </div>
-      </div>
-    </a>
+        <h5 class="font-weight-bold text-uppercase mb-1" style="color: #2c3e50;">{{ person.title }}</h5>
+        <div class="font-italic text-muted mb-1">{{ person.role }}</div>
+        <div style="color: #3498db;">{{ person.email }}</div>
+      </a>
+    </div>
     {% endfor %}
+
+    {% comment %} 
+      Then PhDs 
+    {% endcomment %}
+    {% assign phds = site.people | where: "category", "phd" %}
+    {% for person in phds %}
+    <div class="col-md-4 mb-5 text-center">
+      <a href="{{ person.url | relative_url }}" style="text-decoration: none; color: inherit;">
+        <div class="mb-3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" class="img-fluid shadow-sm" style="width: 250px; height: 250px; object-fit: cover; border-radius: 2px;">
+        </div>
+        <h5 class="font-weight-bold text-uppercase mb-1" style="color: #2c3e50;">{{ person.title }}</h5>
+        <div class="font-italic text-muted mb-1">{{ person.role }}</div>
+        <div style="color: #3498db;">{{ person.email }}</div>
+      </a>
+    </div>
+    {% endfor %}
+
+    {% comment %} 
+      Then Masters 
+    {% endcomment %}
+    {% assign masters = site.people | where: "category", "master" %}
+    {% for person in masters %}
+    <div class="col-md-4 mb-5 text-center">
+      <a href="{{ person.url | relative_url }}" style="text-decoration: none; color: inherit;">
+        <div class="mb-3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" class="img-fluid shadow-sm" style="width: 250px; height: 250px; object-fit: cover; border-radius: 2px;">
+        </div>
+        <h5 class="font-weight-bold text-uppercase mb-1" style="color: #2c3e50;">{{ person.title }}</h5>
+        <div class="font-italic text-muted mb-1">{{ person.role }}</div>
+        <div style="color: #3498db;">{{ person.email }}</div>
+      </a>
+    </div>
+    {% endfor %}
+
+    {% comment %} 
+      Then Undergrads 
+    {% endcomment %}
+    {% assign undergrads = site.people | where: "category", "undergraduate" %}
+    {% for person in undergrads %}
+    <div class="col-md-4 mb-5 text-center">
+      <a href="{{ person.url | relative_url }}" style="text-decoration: none; color: inherit;">
+        <div class="mb-3">
+          <img src="{{ person.image }}" alt="{{ person.title }}" class="img-fluid shadow-sm" style="width: 250px; height: 250px; object-fit: cover; border-radius: 2px;">
+        </div>
+        <h5 class="font-weight-bold text-uppercase mb-1" style="color: #2c3e50;">{{ person.title }}</h5>
+        <div class="font-italic text-muted mb-1">{{ person.role }}</div>
+        <div style="color: #3498db;">{{ person.email }}</div>
+      </a>
+    </div>
+    {% endfor %}
+
   </div>
 
-  {% endfor %}
-{% endif %}
+  <!-- Alumni Section -->
+  <div class="mt-5 mb-5 pt-5 border-top">
+    <h3 class="font-weight-bold mb-4 text-uppercase text-center">ALUMNI</h3>
+    <ul class="list-unstyled mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.8;">
+      <li class="mb-2">1. <strong>Samuel Doe</strong>, MS 2019, now PhD Student at University of Pittsburgh.</li>
+      <li class="mb-2">2. <strong>Christina Murphy</strong>, MS 2020, now Composite Application Engineer @ Pratt & Whitney.</li>
+      <li class="mb-2">3. <strong>Jacob Robson</strong>, MS 2020, now Engineer @ Rockwell.</li>
+    </ul>
+  </div>
 </div>
-
-<style>
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-</style>

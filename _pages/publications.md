@@ -7,14 +7,18 @@ nav: true
 nav_order: 4
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
+<div class="container">
 <div class="publications">
+
+  <!-- Publications Header -->
+  <div class="text-center mt-5 mb-5">
+    <h1 class="font-weight-bold" style="letter-spacing: 2px;">PUBLICATIONS</h1>
+    <p class="mx-auto text-muted" style="max-width: 600px;">
+      Our latest research publications.
+    </p>
+  </div>
 
 {% bibliography %}
 
+</div>
 </div>
