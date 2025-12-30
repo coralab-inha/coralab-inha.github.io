@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="container people-page">
+
+  <!-- People Header -->
+  <div class="people-header">
+    <h1>{{ site.data.people.header.title }}</h1>
+    <p>
+      {{ site.data.people.header.description }}
+    </p>
+  </div>
+
+  <div class="row">
+    {% assign active_categories = "professor,phd,master,undergraduate" | split: "," %}
+    
+    {% for category in active_categories %}
+      {% assign people_in_category = site.people | where: "category", category %}
+      {% for person in people_in_category %}
+      <div class="col-md-4">
+        <a href="{{ person.url | relative_url }}" class="profile-card">
+          <div class="profile-img-container">
+            <img src="{{ person.image }}" alt="{{ person.title }}" class="img-fluid shadow-sm">
+          </div>
+          <h5 class="profile-name">{{ person.title }}</h5>
+          <div class="profile-role">{{ person.role }}</div>
+          <div class="profile-email">{{ person.email }}</div>
+        </a>
+      </div>
+      {% endfor %}
+    {% endfor %}
+
+  </div>
+
+  <!-- Alumni Section -->
+  <div class="alumni-section">
+    <h3>ALUMNI</h3>
+    <ul class="alumni-list">
+      {% for alum in site.data.people.alumni %}
+      <li>
+        {{ forloop.index }}. <strong>{{ alum.name }}</strong>, {{ alum.degree }}, now {{ alum.current_role }}.
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

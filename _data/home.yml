@@ -1,0 +1,41 @@
+hero:
+  title: "THE DESIGN RESEARCH COLLECTIVE"
+  background_image: "/assets/img/background.png"
+  buttons:
+    - text: "MEET OUR TEAM"
+      link: "/people/"
+      icon: "fas fa-users"
+    - text: "JOIN OUR TEAM"
+      link: "#contact"
+      icon: "fas fa-plus"
+    - text: "READ OUR WORK"
+      link: "/publications/"
+      icon: "fas fa-book"
+
+research_areas:
+  title: "RESEARCH AREAS"
+  description: "We explore research at the intersection of engineering design, psychology, and computer science to create superpowers for designers, engineers, and problem-solvers."
+  items:
+    - title: "PEOPLE DOING DESIGN"
+      image: "/assets/img/projects/robot.png"
+      description: "Humans make things happen. We study how designers think, how teams collaborate, and how organizations innovate to solve complex problems."
+    - title: "AI/ML SUPPORTING DESIGN"
+      image: "/assets/img/projects/autonomous_nav_bg.png"
+      description: "By building ML systems in response to human needs, we create tools that augment human capabilities in design and decision-making."
+    - title: "HUMAN-AI COLLABORATION"
+      image: "/assets/img/3.jpg"
+      description: "We elevate AI as a partner in the problem-solving process, enabling new forms of co-creation between humans and machines."
+
+application_domains:
+  title: "APPLICATION DOMAINS"
+  description: "Across these research areas, we make fundamental advances in some important application domains."
+  items:
+    - title: "ADDITIVE MANUFACTURING"
+      image: "/assets/img/1.jpg"
+      description: "Additive manufacturing is a process of making a three-dimensional object of a solid part by successively adding material layer by layer."
+    - title: "MARINE RENEWABLE ENERGY"
+      image: "/assets/img/2.jpg"
+      description: "Marine renewable energy is a process of generating electricity from the movement of water in the ocean."
+    - title: "UNMANNED AERIAL VEHICLES"
+      image: "/assets/img/12.jpg"
+      description: "Unmanned aerial vehicles are unmanned aircraft that are used for various purposes such as surveillance, mapping, and delivery."

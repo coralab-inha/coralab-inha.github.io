@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="projects projects-page">
+
+  <!-- Projects Header -->
+  <div class="projects-header">
+    <h1>{{ site.data.projects.header.title }}</h1>
+    <p>
+      {{ site.data.projects.header.description }}
+    </p>
+  </div>
+
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %} 
+  <div class="category-section">
+    <a id="{{ category }}" href=".#{{ category }}">
+      <div class="category-header">
+        <h2>{{ category }}</h2>
+        <hr>
+      </div>
+    </a>
+  </div>
+  
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  
+  <!-- Generate list-style items for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate list-style items for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1">
+    {% for project in sorted_projects %}  
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>

@@ -1,0 +1,42 @@
+// Footer Styles
+.site-footer {
+  padding: 3rem 0;
+  border-top: 1px solid var(--global-divider-color); // Optional divider
+  background-color: var(--global-bg-color); // Default background
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+
+  .social-links {
+    margin-bottom: 1rem;
+    
+    a {
+      text-decoration: none;
+      color: var(--global-text-color); // Dark text
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 2rem;
+      display: inline-flex;
+      align-items: center;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+
+      i {
+        margin-right: 0.5rem;
+        font-size: 1.1em;
+      }
+      
+      // Specific colors if needed, but per design image it looks uniform dark grey/black
+      // .fa-envelope { color: ... }
+      // .fa-github { color: ... }
+    }
+  }
+
+  .copyright {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+  }
+}

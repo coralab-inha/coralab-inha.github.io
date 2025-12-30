@@ -1,0 +1,100 @@
+.people-page {
+  .people-header {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: var(--global-text-color);
+    }
+
+    p {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      color: var(--global-text-color-light);
+    }
+  }
+  .profile-card {
+    margin-bottom: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+      
+      .profile-name {
+          color: var(--global-theme-color);
+      }
+    }
+
+    .profile-img-container {
+      margin-bottom: 1rem;
+      
+      img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 2px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+    }
+
+    .profile-name {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+      color: var(--global-text-color);
+      transition: color 0.2s ease;
+    }
+
+    .profile-role {
+      font-style: italic;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.25rem;
+    }
+
+    .profile-email {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .alumni-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    h3 {
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: var(--global-text-color);
+    }
+
+    .alumni-list {
+      list-style: none;
+      padding-left: 0;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--global-text-color);
+
+      li {
+        margin-bottom: 0.5rem;
+        
+        strong {
+            color: var(--global-text-color);
+        }
+      }
+    }
+  }
+}
