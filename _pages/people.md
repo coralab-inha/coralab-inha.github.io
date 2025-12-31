@@ -1,8 +1,8 @@
 ---
 layout: people
-title: people
+title: PEOPLE
+description: "Our team of researchers and students."
 permalink: /people/
-description: people in the design research collective
 nav: true
 nav_order: 2
 ---

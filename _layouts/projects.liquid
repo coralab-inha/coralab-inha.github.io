@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="projects projects-page">
+<div class="container projects projects-page">
 
   <!-- Projects Header -->
   <div class="projects-header">
@@ -30,14 +30,14 @@ layout: default
   <!-- Generate list-style items for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -56,14 +56,14 @@ layout: default
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}  
       {% include projects.liquid %}
     {% endfor %}

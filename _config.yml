@@ -155,6 +155,8 @@ collections:
     output: true
   people:
     output: true
+  papers:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

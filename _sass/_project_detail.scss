@@ -1,0 +1,40 @@
+/* Existing styles... append to end or integrate */
+
+/* ... (previous content of _projects.scss) ... */
+
+/* Project Detail Page Styles */
+.project-detail-page {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .project-header {
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+
+  .project-hero-image {
+    img {
+      display: block; // removes bottom space
+    }
+  }
+
+  .post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--global-text-color);
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+    
+    h2, h3 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+  }
+}

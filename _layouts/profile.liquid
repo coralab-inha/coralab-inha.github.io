@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div class="container profile-page">
+  <div class="profile-header">
+    <div class="profile-image">
+      {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      {% endif %}
+    </div>
+    
+    <div class="profile-info">
+      <h1>{{ page.title }}</h1>
+      <ul class="info-list">
+        {% if page.position %}
+        <li><strong>Position:</strong> {{ page.position }}</li>
+        {% endif %}
+        
+        {% if page.email %}
+        <li><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>
+        {% endif %}
+        
+        {% if page.contact_note %}
+        <li><strong>Note:</strong> {{ page.contact_note }}</li>
+        {% endif %}
+        
+        {% if page.website %}
+        <li><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+  {% if page.education %}
+  <div class="profile-section">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    <ul>
+      {% for edu in page.education %}
+      <li>
+        <strong>{{ edu.degree }}</strong>, {{ edu.institution }} 
+        {% if edu.year %}({{ edu.year }}){% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.research_interests %}
+  <div class="profile-section">
+    <h2><i class="fas fa-search"></i> Research Interests</h2>
+    <ul>
+      {% for interest in page.research_interests %}
+      <li>{{ interest }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.selected_publications %}
+  <div class="profile-section">
+    <h2><i class="fas fa-book-open"></i> Publications</h2>
+    <ul class="publication-list">
+      {% for pub in page.selected_publications %}
+      <li>
+        <span class="authors">{{ pub.authors }}</span>, 
+        <span class="title"><i>{{ pub.title }}</i></span>, 
+        <span class="journal">{{ pub.journal }}</span>
+        {% if pub.link %}
+        [<a href="{{ pub.link }}">Link</a>]
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
+  {{ content }}
+
+</div>

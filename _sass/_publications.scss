@@ -19,5 +19,102 @@
   }
 }
 
-// Inherit existing bibliography styles from _base.scss, but ensure container is handled
-// .publications { } removed to avoid empty ruleset error
+/* Override base bibliography styles to match Projects card design */
+/* Publications Grid Layout */
+.publications-page {
+  
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  .card-item {
+    width: 100%;
+    background: var(--global-card-bg-color);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%; /* Ensure equal height cards */
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      
+      .img-container img {
+          transform: scale(1.05);
+      }
+      
+      .card-title {
+          color: var(--global-theme-color);
+      }
+    }
+
+    .img-container {
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      position: relative;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+    }
+
+    .card-content {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card-title {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      color: var(--global-text-color);
+      transition: color 0.3s ease;
+    }
+
+    .author {
+      font-size: 0.95rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .periodical {
+      font-style: italic;
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .links {
+      margin-top: auto;
+      display: flex;
+      gap: 10px;
+      
+      .btn {
+        padding: 0.25rem 0.75rem;
+        font-size: 0.875rem;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
