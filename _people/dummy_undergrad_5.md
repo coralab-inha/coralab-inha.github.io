@@ -1,16 +1,16 @@
 ---
 layout: profile
-title: "Kai Herchenroether"
+title: "Jack Thomas"
 category: undergrad
 role: "Undergraduate"
-email: "kai@students.psu.edu"
+email: "jack.thomas@example.com"
 image: "/assets/img/prof_pic.jpg"
 education:
-  - degree: "B.S. in Engineering"
+  - degree: "B.S. in Design"
     institution: "Penn State University"
     year: "in progress"
 research_interests:
-  - Interest 1
-  - Interest 2
+  - Game Design
+  - Interactive Media
 selected_publications: []
 ---

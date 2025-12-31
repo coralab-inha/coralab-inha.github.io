@@ -1,16 +1,16 @@
 ---
 layout: profile
-title: "Kai Herchenroether"
-category: undergrad
-role: "Undergraduate"
-email: "kai@students.psu.edu"
+title: "Eve Miller"
+category: ms
+role: "M.S. Student"
+email: "eve.miller@example.com"
 image: "/assets/img/prof_pic.jpg"
 education:
-  - degree: "B.S. in Engineering"
+  - degree: "M.S. in Design"
     institution: "Penn State University"
     year: "in progress"
 research_interests:
-  - Interest 1
-  - Interest 2
+  - Human Factors
+  - Ergonomics
 selected_publications: []
 ---

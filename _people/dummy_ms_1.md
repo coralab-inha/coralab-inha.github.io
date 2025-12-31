@@ -1,16 +1,16 @@
 ---
 layout: profile
-title: "Kai Herchenroether"
-category: undergrad
-role: "Undergraduate"
-email: "kai@students.psu.edu"
+title: "Alice Johnson"
+category: ms
+role: "M.S. Student"
+email: "alice.johnson@example.com"
 image: "/assets/img/prof_pic.jpg"
 education:
-  - degree: "B.S. in Engineering"
+  - degree: "M.S. in Design"
     institution: "Penn State University"
     year: "in progress"
 research_interests:
-  - Interest 1
-  - Interest 2
+  - User Experience
+  - Prototyping
 selected_publications: []
 ---

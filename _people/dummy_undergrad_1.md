@@ -1,16 +1,16 @@
 ---
 layout: profile
-title: "Kai Herchenroether"
+title: "Frank Wilson"
 category: undergrad
 role: "Undergraduate"
-email: "kai@students.psu.edu"
+email: "frank.wilson@example.com"
 image: "/assets/img/prof_pic.jpg"
 education:
-  - degree: "B.S. in Engineering"
+  - degree: "B.S. in Design"
     institution: "Penn State University"
     year: "in progress"
 research_interests:
-  - Interest 1
-  - Interest 2
+  - Web Design
+  - Frontend Development
 selected_publications: []
 ---
