@@ -7,4 +7,5 @@ journal: "Sensors"
 pdf: example_pdf.pdf
 image: /assets/img/publication_preview/robot_perception.png
 category: article
+highlight: true
 ---

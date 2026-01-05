@@ -1,0 +1,29 @@
+<div class="publication-list-item">
+  <div class="pub-year">
+    {{ include.paper.year }}
+  </div>
+  <div class="pub-details">
+    <h5 class="pub-title">{{ include.paper.title }}</h5>
+    <div class="pub-meta">
+      <span class="pub-authors">{{ include.paper.authors }}</span>
+      <span class="pub-journal">
+        {% if include.paper.journal %}
+          &middot; <span class="journal-name">{{ include.paper.journal }}</span>
+        {% elsif include.paper.publisher %}
+          &middot; <span class="publisher-name">{{ include.paper.publisher }}</span>
+        {% endif %}
+      </span>
+    </div>
+    <div class="pub-links">
+      {% if include.paper.pdf %}
+      <a href="{{ include.paper.pdf | relative_url }}" target="_blank">PDF</a>
+      {% endif %}
+      {% if include.paper.url %}
+      <a href="{{ include.paper.url }}" target="_blank">Link</a>
+      {% endif %}
+      {% if include.paper.code %}
+      <a href="{{ include.paper.code }}" target="_blank">Code</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

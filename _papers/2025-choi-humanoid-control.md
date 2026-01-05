@@ -7,4 +7,5 @@ journal: "IEEE Transactions on Robotics"
 pdf: example_pdf.pdf
 image: /assets/img/publication_preview/humanoid_control.png
 category: article
+highlight: true
 ---

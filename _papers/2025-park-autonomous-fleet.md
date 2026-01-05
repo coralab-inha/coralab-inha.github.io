@@ -7,4 +7,5 @@ journal: "International Journal of Control, Automation and Systems"
 pdf: example_pdf.pdf
 image: /assets/img/publication_preview/fleet_management.png
 category: article
+highlight: true
 ---

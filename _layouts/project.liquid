@@ -68,21 +68,6 @@ layout: default
     </div>
   </div>
 
-  <!-- Related Publications -->
-  {% if page.related_publications %}
-    {% assign related_pubs = site.publications | where: "project", page.title %} <!-- or however relation is defined, usually it's automatic via bibliography if using jekyll-scholar, but here we preserve existing logic structure if any -->
-    
-    <!-- If existing logic uses bibliography tag -->
-    <div class="row justify-content-center mt-5">
-      <div class="col-lg-10">
-        <h2>References</h2>
-        <div class="publications">
-          {% bibliography --cited_in_order %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
   {% if site.giscus and page.giscus_comments %}
     <div class="row justify-content-center mt-5">
       <div class="col-lg-10">

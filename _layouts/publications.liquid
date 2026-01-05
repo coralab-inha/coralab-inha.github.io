@@ -7,60 +7,48 @@ layout: default
   
     <!-- Publications Header -->
     <div class="publications-header">
-      <h1>{{ site.data.publications.header.title }}</h1>
+      <h1>{{ site.data.publications.header.title | default: "Publications" }}</h1>
       <p>
-        {{ site.data.publications.header.description }}
+        {{ site.data.publications.header.description | default: "Selected publications and research works." }}
       </p>
     </div>
-  
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    {% assign papers = site.papers | sort: "year" | reverse %}
-    {% for paper in papers %}
-    <div class="col">
-      <div class="card-item h-100">
-        <!-- Image Container -->
-        {% if paper.image or paper.preview %}
-        <div class="img-container">
-          {% if paper.image %}
-            <img src="{{ paper.image | relative_url }}" alt="{{ paper.title }}" class="card-img-top">
-          {% elsif paper.preview %}
-             <img src="{{ paper.preview | relative_url }}" alt="{{ paper.title }}" class="card-img-top">
-          {% endif %}
-        </div>
-        {% else %}
-        <!-- Placeholder if no image -->
-        <div class="img-container d-flex align-items-center justify-content-center bg-light">
-           <i class="fas fa-file-alt fa-3x text-muted"></i>
-        </div>
-        {% endif %}
 
-        <!-- Content -->
-        <div class="card-content">
-          <h5 class="card-title">{{ paper.title }}</h5>
-          <p class="card-text author">{{ paper.authors }}</p>
-          <p class="card-text periodical">
-            {% if paper.journal %}
-              {{ paper.journal }}
-            {% elsif paper.publisher %}
-              {{ paper.publisher }}
-            {% endif %}
-            ({{ paper.year }})
-          </p>
-          
-          <div class="links mt-auto">
-            {% if paper.pdf %}
-            <a href="{{ paper.pdf | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">PDF</a>
-            {% endif %}
-            {% if paper.url %}
-            <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Link</a>
-            {% endif %}
-            {% if paper.code %}
-            <a href="{{ paper.code }}" target="_blank" class="btn btn-sm btn-outline-dark">Code</a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Filter Papers -->
+    {% assign all_papers = site.papers | sort: "year" | reverse %}
+    {% assign highlighted_papers = "" | split: "" %}
+    {% assign normal_papers = "" | split: "" %}
+
+    {% for paper in all_papers %}
+      {% if paper.category != "patent" %}
+        {% if paper.highlight == true or paper.selected == true %}
+          {% assign highlighted_papers = highlighted_papers | push: paper %}
+        {% else %}
+          {% assign normal_papers = normal_papers | push: paper %}
+        {% endif %}
+      {% endif %}
     {% endfor %}
+
+    <!-- Group Highlight Section -->
+    {% if highlighted_papers.size > 0 %}
+    <div class="section-title">
+      <h2>Group Highlight</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+      {% for paper in highlighted_papers %}
+        {% include publication_card.html paper=paper %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Full of Publication Section -->
+    <div class="section-title">
+      <h2>Full of Publication</h2>
+    </div>
+    <div class="publication-list">
+      {% for paper in normal_papers %}
+        {% include publication_list_item.html paper=paper %}
+      {% endfor %}
+    </div>
+
   </div>
 </div>
