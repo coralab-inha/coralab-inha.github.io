@@ -4,9 +4,6 @@ title: "Über die von der molekularkinetischen Theorie der Wärme geforderte Bew
 authors: "Einstein, A."
 year: 1905
 journal: "Annalen der physik"
-volume: 322
-number: 8
-pages: "549--560"
+highlight: false
 category: article
-highlight: true
 ---

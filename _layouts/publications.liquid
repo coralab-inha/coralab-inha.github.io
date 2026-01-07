@@ -7,9 +7,9 @@ layout: default
   
     <!-- Publications Header -->
     <div class="publications-header">
-      <h1>{{ site.data.publications.header.title | default: "Publications" }}</h1>
+      <h1>{{ site.data.publications.metadata.title | default: "Publications" }}</h1>
       <p>
-        {{ site.data.publications.header.description | default: "Selected publications and research works." }}
+        {{ site.data.publications.metadata.description | default: "Selected publications and research works." }}
       </p>
     </div>
 
@@ -31,7 +31,7 @@ layout: default
     <!-- Group Highlight Section -->
     {% if highlighted_papers.size > 0 %}
     <div class="section-title">
-      <h2>Group Highlight</h2>
+      <h2>{{ site.data.publications.sections.highlight.title | default: "Group Highlight" }}</h2>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
       {% for paper in highlighted_papers %}
@@ -42,7 +42,7 @@ layout: default
 
     <!-- Full of Publication Section -->
     <div class="section-title">
-      <h2>Full of Publication</h2>
+      <h2>{{ site.data.publications.sections.full.title | default: "Full of Publication" }}</h2>
     </div>
     <div class="publication-list">
       {% for paper in normal_papers %}

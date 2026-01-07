@@ -3,7 +3,7 @@ layout: paper
 title: "Relativity: the Special and General Theory"
 authors: "Einstein, Albert"
 year: 1920
-publisher: "Methuen & Co Ltd"
-category: book
+journal: "Methuen & Co Ltd"
 pdf: relativity.html
+category: book
 ---

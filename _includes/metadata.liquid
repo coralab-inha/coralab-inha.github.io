@@ -26,13 +26,21 @@
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}
+
+  {% assign page_title = page.title %}
+  {% if page_title == null or page_title == '' %}
+    {% if site.data[page.layout].metadata.title %}
+      {% assign page_title = site.data[page.layout].metadata.title %}
+    {% endif %}
+  {% endif %}
+
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
-    {% if page.title == null or page.title == '' %}
+  {% elsif page_title != 'blank' and page.url != '/' %}
+    {% if page_title == null or page_title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
-      {{ page.title }} | {{ title }}
+      {{ page_title }} | {{ title }}
     {% endif %}
   {% else %}
     {{ title }}

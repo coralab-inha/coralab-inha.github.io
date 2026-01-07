@@ -4,20 +4,29 @@ layout: default
 
 <div class="container project-detail-page">
   
+  {% assign p_data = site.data.projects.items | where: "key", page.key | first %}
+  {% assign p_title = p_data.title | default: page.title %}
+  {% assign p_desc = p_data.description | default: page.description %}
+  {% assign p_img = p_data.img | default: page.img %}
+  {% assign p_images = p_data.images | default: page.images %}
+  {% assign p_caption = p_data.image_caption | default: page.image_caption %}
+  {% assign p_funding = p_data.funding | default: page.funding %}
+  {% assign p_keywords = p_data.keywords | default: page.keywords %}
+
   <!-- Header Section -->
   <div class="project-header text-center mb-5">
-    <h1 class="project-title font-weight-bold">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="project-description text-muted lead">{{ page.description }}</p>
+    <h1 class="project-title font-weight-bold">{{ p_title }}</h1>
+    {% if p_desc %}
+    <p class="project-description text-muted lead">{{ p_desc }}</p>
     {% endif %}
   </div>
 
   <!-- Hero Image Section -->
-  {% if page.img %}
+  {% if p_img %}
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
       <div class="project-hero-image shadow-sm rounded overflow-hidden">
-        <img src="{{ page.img | relative_url }}" alt="{{ page.title }}" class="img-fluid w-100" style="object-fit: cover; max-height: 600px;">
+        <img src="{{ p_img | relative_url }}" alt="{{ p_title }}" class="img-fluid w-100" style="object-fit: cover; max-height: 600px;">
       </div>
     </div>
   </div>
@@ -31,10 +40,10 @@ layout: default
       </article>
 
       <!-- Project Gallery -->
-      {% if page.images %}
+      {% if p_images %}
       <div class="project-gallery mt-5 mb-4">
         <div class="row">
-          {% for img in page.images %}
+          {% for img in p_images %}
           <div class="col-md-6 mb-3">
             <figure class="figure w-100">
                 <img src="{{ img.path | relative_url }}" class="figure-img img-fluid rounded shadow-sm w-100" alt="{{ img.title }}" style="object-fit: cover; height: 300px;">
@@ -45,22 +54,22 @@ layout: default
           </div>
           {% endfor %}
         </div>
-        {% if page.image_caption %}
+        {% if p_caption %}
         <div class="text-center text-muted small mt-2">
-            {{ page.image_caption }}
+            {{ p_caption }}
         </div>
         {% endif %}
       </div>
       {% endif %}
 
       <!-- Project Meta Info -->
-      {% if page.funding or page.keywords %}
+      {% if p_funding or p_keywords %}
       <div class="project-meta mt-5 pt-4 border-top">
-        {% if page.funding %}
-        <p class="mb-2"><strong>Funding:</strong> {{ page.funding }}</p>
+        {% if p_funding %}
+        <p class="mb-2"><strong>Funding:</strong> {{ p_funding }}</p>
         {% endif %}
-        {% if page.keywords %}
-        <p class="mb-0"><strong>Keywords:</strong> {{ page.keywords }}</p>
+        {% if p_keywords %}
+        <p class="mb-0"><strong>Keywords:</strong> {{ p_keywords }}</p>
         {% endif %}
       </div>
       {% endif %}

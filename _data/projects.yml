@@ -1,5 +1,59 @@
+metadata:
+  title: "PROJECTS"
+  description: "Our research projects spanning various domains."
+
 header:
   title: "PROJECTS"
   description: "Our research projects spanning various domains."
 categories:
   - "Research Projects"
+
+items:
+  - key: autonomous-navigation
+    title: "Autonomous Navigation in Urban Environments"
+    description: "Vision-LiDAR fusion for safe and efficient city driving"
+    img: /assets/img/projects/sample_1.png
+    importance: 1
+    category: "Research Projects"
+    related_publications: true
+    url: /projects/project-autonomous-navigation/
+    images:
+      - path: /assets/img/projects/sample_1.png
+        title: "LiDAR Point Cloud Mapping"
+      - path: /assets/img/projects/sample_1.png
+        title: "Camera-based Lane Detection"
+    image_caption: "Left: 3D point cloud map of Seoul street. Right: lane detection overlay using camera and segmentation network."
+    funding: "Ministry of Land, Infrastructure and Transport (2024–2026)"
+    keywords: "Sensor Fusion, LiDAR SLAM, Urban Driving"
+
+  - key: slam-robot
+    title: "Real-Time SLAM for Mobile Robots"
+    description: "Low-latency visual SLAM on embedded platforms"
+    img: /assets/img/projects/sample_2.png
+    importance: 2
+    category: "Research Projects"
+    related_publications: true
+    url: /projects/project-slam-robot/
+    images:
+      - path: /assets/img/projects/sample_2.png
+        title: "Generated Map"
+      - path: /assets/img/projects/sample_2.png
+        title: "Mobile Robot Platform"
+    funding: "National Research Foundation (NRF)"
+    keywords: "SLAM, Visual-Inertial Odometry, Embedded Robotics"
+
+  - key: collaborative-robot
+    title: "Human–Robot Collaboration in Manufacturing"
+    description: "AI-based motion prediction for safe cooperative tasks"
+    img: /assets/img/projects/sample_3.png
+    importance: 3
+    category: "Research Projects"
+    related_publications: true
+    url: /projects/project-collaborative-robot/
+    images:
+      - path: /assets/img/projects/sample_3.png
+        title: "Human Motion Tracking"
+      - path: /assets/img/projects/sample_3.png
+        title: "Safe Co-manipulation"
+    funding: "Samsung Electronics Industry-Academia Program"
+    keywords: "Human-Robot Interaction, Safety, Motion Prediction"
