@@ -1,6 +1,6 @@
 hero:
   title: "THE DESIGN RESEARCH COLLECTIVE"
-  background_image: "/assets/img/background.png"
+  background_image: "/assets/img/home/sample_background.png"
   buttons:
     - text: "MEET OUR TEAM"
       link: "/people/"

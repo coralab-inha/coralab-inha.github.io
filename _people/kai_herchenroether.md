@@ -4,7 +4,7 @@ title: "Kai Herchenroether"
 category: undergrad
 role: "Undergraduate"
 email: "kai@students.psu.edu"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_w.png"
 education:
   - degree: "B.S. in Engineering"
     institution: "Penn State University"

@@ -4,7 +4,7 @@ title: "Chris McComb"
 category: professor
 role: "Director"
 email: "mccomb@psu.edu"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_m.png"
 education:
   - degree: "Ph.D. in Mechanical Engineering"
     institution: "Carnegie Mellon University"

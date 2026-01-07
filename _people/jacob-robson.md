@@ -4,7 +4,7 @@ title: "Jacob Robson"
 category: alumni
 role: "MS 2020"
 current_role: "Engineer @ Rockwell"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_m.png"
 education:
   - degree: "M.S. in Design"
     institution: "Penn State University"

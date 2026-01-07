@@ -4,7 +4,7 @@ title: "Wenzhuo Xu"
 category: phd
 role: "Ph.D. Student"
 email: "wen@students.psu.edu"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_w.png"
 education:
   - degree: "Ph.D. in Design"
     institution: "Penn State University"

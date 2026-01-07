@@ -4,7 +4,7 @@ title: "Leyi (Dora) Zhang"
 category: ms
 role: "M.S. Student"
 email: "leyi@students.psu.edu"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_w.png"
 education:
   - degree: "M.S. in Design"
     institution: "Penn State University"

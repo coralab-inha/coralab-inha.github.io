@@ -4,7 +4,7 @@ title: "Christina Murphy"
 category: alumni
 role: "MS 2020"
 current_role: "Composite Application Engineer @ Pratt & Whitney"
-image: "/assets/img/prof_pic.jpg"
+image: "/assets/img/people/sample_w.png"
 education:
   - degree: "M.S. in Design"
     institution: "Penn State University"
