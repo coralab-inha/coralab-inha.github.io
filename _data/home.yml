@@ -1,17 +1,19 @@
 metadata:
   title: "Home"
-  description: "The Design Research Collective"
+  description: "CORA Lab"
 
 hero:
-  title: "THE DESIGN RESEARCH COLLECTIVE"
+  title: "Welcome to CORA Lab"
   background_image: "/assets/img/home/sample_background.png"
   buttons:
     - text: "MEET OUR TEAM"
       link: "/people/"
       icon: "fas fa-users"
     - text: "JOIN OUR TEAM"
-      link: "#contact"
+      link: "#"
       icon: "fas fa-plus"
+      action: "copy-email"
+      email: "mccomb@psu.edu"
     - text: "READ OUR WORK"
       link: "/publications/"
       icon: "fas fa-book"

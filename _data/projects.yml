@@ -41,6 +41,7 @@ items:
         title: "Mobile Robot Platform"
     funding: "National Research Foundation (NRF)"
     keywords: "SLAM, Visual-Inertial Odometry, Embedded Robotics"
+    content: "A real-time **Visual-Inertial SLAM** framework optimized for Jetson-based mobile robots. We focus on reducing localization latency and improving drift correction in dynamic environments."
 
   - key: collaborative-robot
     title: "Human–Robot Collaboration in Manufacturing"
@@ -57,3 +58,4 @@ items:
         title: "Safe Co-manipulation"
     funding: "Samsung Electronics Industry-Academia Program"
     keywords: "Human-Robot Interaction, Safety, Motion Prediction"
+    content: "This project aims to build an intelligent **collaborative robot (CoBot)** that predicts human motion and plans adaptive trajectories for shared workspaces."

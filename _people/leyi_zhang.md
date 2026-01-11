@@ -4,19 +4,20 @@ title: "Leyi (Dora) Zhang"
 category: ms
 role: "M.S. Student"
 email: "leyi@students.psu.edu"
-image: "/assets/img/people/sample_w.png"
 education:
-  - degree: "M.S. in Design"
+  - degree: "M.S. in Engineering Design"
     institution: "Penn State University"
-    year: "in progress"
-  - degree: "B.S. in Related Field"
-    institution: "Previous University"
+    year: "Expected 2024"
+  - degree: "B.S. in Industrial Design"
+    institution: "Zhejiang University"
+    year: "2022"
 research_interests:
-  - Interest 1
-  - Interest 2
+  - User Experience (UX) Design
+  - Sustainable Design
+  - Emotional Design
 selected_publications:
   - authors: "L. Zhang, et al."
-    title: "Placeholder Paper Title"
-    journal: "Journal Name"
+    title: "Eco-Friendly Packaging Design Analysis"
+    journal: "Sustainability"
     link: "#"
 ---

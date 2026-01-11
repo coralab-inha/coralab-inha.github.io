@@ -9,8 +9,8 @@ layout: default
     <h1 class="display-4">{{ site.data.home.hero.title }}</h1>
     <div class="mt-5">
       {% for button in site.data.home.hero.buttons %}
-      <a href="{{ button.link }}" class="btn btn-lg btn-outline-white">
-        <i class="{{ button.icon }} mr-2"></i> {{ button.text }}
+      <a href="{{ button.link }}" class="btn btn-lg btn-outline-white" {% if button.action == 'copy-email' %}data-action="copy-email" data-email="{{ button.email }}"{% endif %}>
+        <i class="{{ button.icon }} mr-2"></i> <span class="btn-text">{{ button.text }}</span>
       </a>
       {% endfor %}
     </div>

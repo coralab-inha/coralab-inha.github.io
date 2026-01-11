@@ -30,7 +30,7 @@ category: article # article, book, inproceedings 등
 - **authors**: 저자 목록입니다.
 - **year**: 출판 연도 (YYYY).
 - **journal**: 저널명, 학회명 또는 출판사명입니다.
-- **image**: 프리뷰 이미지 경로입니다 (프로젝트 루트 기준, Group Highlights 섹션에서 사용).
+- **image**: 프리뷰 이미지 경로입니다. (프로젝트 루트 기준, Group Highlights 섹션에서 사용).
 - **pdf**: PDF 파일의 경로 또는 파일명입니다.
 - **url**: 논문의 공식 웹페이지 링크입니다.
 - **code**: 소스 코드 저장소 링크입니다.

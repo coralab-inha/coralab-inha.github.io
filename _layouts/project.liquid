@@ -12,6 +12,7 @@ layout: default
   {% assign p_caption = p_data.image_caption | default: page.image_caption %}
   {% assign p_funding = p_data.funding | default: page.funding %}
   {% assign p_keywords = p_data.keywords | default: page.keywords %}
+  {% assign p_content = p_data.content | markdownify | default: content %}
 
   <!-- Header Section -->
   <div class="project-header text-center mb-5">
@@ -36,7 +37,7 @@ layout: default
   <div class="row justify-content-center">
     <div class="col-lg-10">
       <article class="post-content">
-        {{ content }}
+        {{ p_content }}
       </article>
 
       <!-- Project Gallery -->
