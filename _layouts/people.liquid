@@ -32,7 +32,6 @@ layout: default
             <li style="margin-bottom: 0.5rem; font-size: 1.1rem;">
               <span style="font-weight: bold; color: var(--global-theme-color);">{{ person.title }}</span>, 
               {{ person.role }}{% if person.current_role %}, now {{ person.current_role }}{% endif %}
-              {% if person.url %}<a href="{{ person.url | relative_url }}" style="font-size: 0.9em; margin-left: 0.5rem;"><i class="fas fa-link"></i></a>{% endif %}
             </li>
             {% endfor %}
           </ul>
