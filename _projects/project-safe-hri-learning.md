@@ -1,4 +1,4 @@
 ---
 layout: project
-key: slam-robot
+key: safe-hri-learning
 ---
