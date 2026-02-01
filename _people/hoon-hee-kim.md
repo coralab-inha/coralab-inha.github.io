@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Hoon Hee Kim"
+title: "김훈희"
 category: alumni
 role: "Alumni"
 email: ""

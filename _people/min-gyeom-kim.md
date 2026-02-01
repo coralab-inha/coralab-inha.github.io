@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Min Gyeom Kim"
+title: "김민겸"
 category: alumni
 role: "Alumni"
 email: ""

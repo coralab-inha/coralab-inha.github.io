@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Kwang Jae Lee"
+title: "이광재"
 category: alumni
 role: "Alumni"
 email: ""

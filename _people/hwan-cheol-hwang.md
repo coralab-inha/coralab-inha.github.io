@@ -1,10 +1,10 @@
 ---
 layout: profile
-title: "Hwan Cheol Hwang"
+title: "HwanCheul Hwang"
 category: phd
 role: "Ph.D. Student"
 email: "anderhwang@inha.edu"
-image: "/assets/img/people/default.png"
+image: "/assets/img/people/Hwancheul.png"
 education: []
 research_interests:
   - Robotics Team

@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Seung Jun Yoo"
+title: "유승준"
 category: alumni
 role: "Alumni"
 email: ""

@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Joo Hyun Kim"
+title: "김주현"
 category: alumni
 role: "Alumni"
 email: ""

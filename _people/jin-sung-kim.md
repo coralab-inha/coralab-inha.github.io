@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Jin Sung Kim"
+title: "김진성"
 category: alumni
 role: "Alumni"
 email: ""

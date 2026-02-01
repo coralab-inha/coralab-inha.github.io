@@ -1,10 +1,10 @@
 ---
 layout: profile
-title: "Sung Jin Noh"
+title: "SungGin Noh"
 category: ms
 role: "M.S. Student"
 email: "mattnoh@inha.edu"
-image: "/assets/img/people/default.png"
+image: "/assets/img/people/Sungjin.png"
 education: []
 research_interests:
   - Robotics Team

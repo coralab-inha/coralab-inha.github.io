@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Hyun Jae Sim"
+title: "심현재"
 category: alumni
 role: "Alumni"
 email: ""
