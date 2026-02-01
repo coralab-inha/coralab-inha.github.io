@@ -13,7 +13,7 @@ hero:
       link: "#"
       icon: "fas fa-plus"
       action: "copy-email"
-      email: "mccomb@psu.edu"
+      email: "kwangki.kim@inha.ac.kr"
     - text: "READ OUR WORK"
       link: "/publications/"
       icon: "fas fa-book"
