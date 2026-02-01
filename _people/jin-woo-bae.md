@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Jin Woo Bae"
+title: "배진우"
 category: alumni
 role: "Alumni"
 email: ""

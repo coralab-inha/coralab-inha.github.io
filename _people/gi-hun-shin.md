@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Gi Hun Shin"
+title: "신기훈"
 category: alumni
 role: "Alumni"
 email: ""

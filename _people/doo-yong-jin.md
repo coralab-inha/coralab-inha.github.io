@@ -1,10 +1,10 @@
 ---
 layout: profile
-title: "Doo Yong Jin"
+title: "DuYong Jin"
 category: phd
 role: "Ph.D. Student"
 email: "dyjin@inha.edu"
-image: "/assets/img/people/default.png"
+image: "/assets/img/people/Duyong.png"
 education: []
 research_interests:
   - xEV Team

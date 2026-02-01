@@ -1,10 +1,10 @@
 ---
 layout: profile
-title: "Min Woo Gwon"
+title: "MinWoo Gwon"
 category: phd
 role: "Ph.D. Student"
 email: "minu@inha.edu"
-image: "/assets/img/people/default.png"
+image: "/assets/img/people/kwon.png"
 education: []
 research_interests:
   - xEV Team

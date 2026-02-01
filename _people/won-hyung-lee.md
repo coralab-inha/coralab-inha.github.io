@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Won Hyung Lee"
+title: "이원형"
 category: alumni
 role: "Alumni"
 email: ""

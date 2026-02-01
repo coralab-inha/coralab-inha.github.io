@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Ji Won Kim"
+title: "김지원"
 category: alumni
 role: "Alumni"
 email: ""

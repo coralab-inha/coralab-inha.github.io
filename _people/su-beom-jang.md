@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Su Beom Jang"
+title: "장수범"
 category: alumni
 role: "Alumni"
 email: ""

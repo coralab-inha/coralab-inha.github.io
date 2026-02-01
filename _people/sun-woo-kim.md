@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Sun Woo Kim"
+title: "김선우"
 category: alumni
 role: "Alumni"
 email: ""

@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Byeong Uk Kim"
+title: "김병욱"
 category: alumni
 role: "Alumni"
 email: ""

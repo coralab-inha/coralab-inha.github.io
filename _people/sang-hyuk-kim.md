@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Sang Hyuk Kim"
+title: "김상혁"
 category: alumni
 role: "Alumni"
 email: ""

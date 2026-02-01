@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: "Ji Han Kang"
+title: "강지한"
 category: alumni
 role: "Alumni"
 email: ""
