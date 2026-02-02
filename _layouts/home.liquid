@@ -3,11 +3,11 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<section id="hero" style="background-image: url('{{ site.data.home.hero.background_image | relative_url }}');">
+<section id="hero" style="background-image: url('{{ site.data.home.hero.background_image | relative_url }}'); background-size: cover; background-position: center; min-height: 60vh; display: flex; align-items: center; justify-content: center;">
   <div class="overlay"></div>
   <div class="content text-center">
     <h1 class="display-4">{{ site.data.home.hero.title }}</h1>
-    </div>
+  </div>
 </section>
 
 <!-- Research Areas Section -->
