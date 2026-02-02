@@ -30,8 +30,7 @@ layout: default
           <ul class="alumni-list" style="list-style: none; padding-left: 0;">
             {% for person in people_in_category %}
             <li style="margin-bottom: 0.5rem; font-size: 1.1rem;">
-              <span style="font-weight: bold; color: var(--global-theme-color);">{{ person.title }}</span>, 
-              {{ person.role }}{% if person.current_role %}, now {{ person.current_role }}{% endif %}
+              <span style="font-weight: bold; color: var(--global-theme-color);">{{ person.title }}</span>
             </li>
             {% endfor %}
           </ul>
