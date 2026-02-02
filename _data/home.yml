@@ -4,7 +4,7 @@ metadata:
 
 hero:
   title: "Welcome to CORA Lab"
-  background_image: "/assets/img/home/sample_background.png"
+  background_image: "/assets/img/home/background1.png"
   buttons:
     - text: "MEET OUR TEAM"
       link: "/people/"
