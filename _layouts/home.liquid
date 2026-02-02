@@ -3,9 +3,10 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<section id="hero" style="background-image: url('{{ site.data.home.hero.background_image | relative_url }}');">
+<section id="hero" style="background-image: url('{{ site.data.home.hero.background_image | relative_url }}'); display: flex; flex-direction: column; justify-content: flex-start; padding-top: 18vh;">
   <div class="overlay"></div>
-  <div class="content text-center">
+  
+  <div class="content text-center" style="z-index: 2; width: 100%;">
     <h1 class="display-4">{{ site.data.home.hero.title }}</h1>
     <div class="mt-5">
       {% for button in site.data.home.hero.buttons %}
