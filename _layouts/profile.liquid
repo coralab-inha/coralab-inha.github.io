@@ -66,6 +66,8 @@ layout: default
         <span class="authors">{{ pub.authors }}</span>, 
         <span class="title"><i>{{ pub.title }}</i></span>, 
         <span class="journal">{{ pub.journal }}</span>
+        {% if pub.paper %}
+        [<a href="{{ pub.paper }}">Paper</a>]
         {% if pub.link %}
         [<a href="{{ pub.link }}">Link</a>]
         {% endif %}
