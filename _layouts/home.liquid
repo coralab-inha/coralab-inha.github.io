@@ -4,17 +4,10 @@ layout: default
 
 <!-- Hero Section -->
 <section id="hero" style="background-image: url('{{ site.data.home.hero.background_image | relative_url }}');">
-  <div class="overlay"></div>
-  <div class="content text-center">
-    <h1 class="display-4">{{ site.data.home.hero.title }}</h1>
-    <div class="mt-5">
-      {% for button in site.data.home.hero.buttons %}
-      <a href="{{ button.link }}" class="btn btn-lg btn-outline-white" {% if button.action == 'copy-email' %}data-action="copy-email" data-email="{{ button.email }}"{% endif %}>
-        <i class="{{ button.icon }} mr-2"></i> <span class="btn-text">{{ button.text }}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
+  <div class="overlay"></div>
+  <div class="content text-center">
+    <h1 class="display-4">{{ site.data.home.hero.title }}</h1>
+    </div>
 </section>
 
 <!-- Research Areas Section -->
