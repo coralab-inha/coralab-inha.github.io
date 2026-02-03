@@ -151,96 +151,161 @@ ninja.data = [{
           description: "",
           section: "Papers",handler: () => {
               window.location.href = "/papers/2025-yoo-supervised-learning/";
+            },},{id: "people-duyong-jin",
+          title: 'DuYong Jin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/01_doo-yong-jin/";
             },},{id: "people-jae-heo",
           title: 'Jae Heo',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/01_jae-heo/";
+            },},{id: "people-김지원",
+          title: '김지원',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/01_ji-won-kim/";
+            },},{id: "people-yeohosua-kim",
+          title: 'Yeohosua Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/02_joshua-kim/";
+            },},{id: "people-minwoo-gwon",
+          title: 'MinWoo Gwon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/02_min-woo-gwon/";
+            },},{id: "people-유승준",
+          title: '유승준',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/02_seung-jun-yoo/";
             },},{id: "people-김병욱",
           title: '김병욱',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/byeong-uk-kim/";
-            },},{id: "people-duyong-jin",
-          title: 'DuYong Jin',
+              window.location.href = "/people/03_byeong-uk-kim/";
+            },},{id: "people-jun-gee-hong",
+          title: 'Jun Gee Hong',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/doo-yong-jin/";
+              window.location.href = "/people/03_jun-gee-hong/";
+            },},{id: "people-sunggin-noh",
+          title: 'SungGin Noh',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/03_sung-jin-noh/";
+            },},{id: "people-심현재",
+          title: '심현재',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/04_hyun-jae-sim/";
+            },},{id: "people-seungwon-nam",
+          title: 'SeungWon Nam',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/04_seung-won-nam/";
+            },},{id: "people-sungjun-park",
+          title: 'SungJun Park',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/04_sung-jun-park/";
             },},{id: "people-신기훈",
           title: '신기훈',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/gi-hun-shin/";
+              window.location.href = "/people/05_gi-hun-shin/";
+            },},{id: "people-seonwoo-shin",
+          title: 'SeonWoo Shin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/05_sun-woo-shin/";
+            },},{id: "people-yonghee-kim",
+          title: 'YongHee Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/05_yong-hee-kim/";
             },},{id: "people-geonwoo-kim",
           title: 'GeonWoo Kim',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/gun-woo-kim/";
+              window.location.href = "/people/06_gun-woo-kim/";
+            },},{id: "people-김선우",
+          title: '김선우',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/06_sun-woo-kim/";
+            },},{id: "people-김주현",
+          title: '김주현',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/07_joo-hyun-kim/";
+            },},{id: "people-jeonguk-kim",
+          title: 'JeongUk Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/07_jung-wook-kim/";
+            },},{id: "people-jeonghun-yoon",
+          title: 'JeongHun Yoon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/08_jung-hoon-yoon/";
+            },},{id: "people-김민겸",
+          title: '김민겸',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/08_min-gyeom-kim/";
+            },},{id: "people-이광재",
+          title: '이광재',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/09_kwang-jae-lee/";
+            },},{id: "people-sangho-jeon",
+          title: 'SangHo Jeon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/09_sang-ho-jeon/";
+            },},{id: "people-이원형",
+          title: '이원형',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/09_won-hyung-lee/";
+            },},{id: "people-김상혁",
+          title: '김상혁',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/10_sang-hyuk-kim/";
             },},{id: "people-김훈희",
           title: '김훈희',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/hoon-hee-kim/";
+              window.location.href = "/people/11_hoon-hee-kim/";
+            },},{id: "people-배진우",
+          title: '배진우',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/12_jin-woo-bae/";
+            },},{id: "people-김진성",
+          title: '김진성',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/13_jin-sung-kim/";
+            },},{id: "people-장수범",
+          title: '장수범',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/14_su-beom-jang/";
+            },},{id: "people-강지한",
+          title: '강지한',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/15_ji-han-kang/";
             },},{id: "people-hwancheul-hwang",
           title: 'HwanCheul Hwang',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/hwan-cheol-hwang/";
-            },},{id: "people-심현재",
-          title: '심현재',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/hyun-jae-sim/";
-            },},{id: "people-강지한",
-          title: '강지한',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/ji-han-kang/";
-            },},{id: "people-김지원",
-          title: '김지원',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/ji-won-kim/";
-            },},{id: "people-김진성",
-          title: '김진성',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jin-sung-kim/";
-            },},{id: "people-배진우",
-          title: '배진우',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jin-woo-bae/";
-            },},{id: "people-김주현",
-          title: '김주현',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/joo-hyun-kim/";
-            },},{id: "people-yeohosua-kim",
-          title: 'Yeohosua Kim',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/joshua-kim/";
-            },},{id: "people-jun-gee-hong",
-          title: 'Jun Gee Hong',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jun-gee-hong/";
-            },},{id: "people-jeonghun-yoon",
-          title: 'JeongHun Yoon',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jung-hoon-yoon/";
-            },},{id: "people-jeonguk-kim",
-          title: 'JeongUk Kim',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jung-wook-kim/";
-            },},{id: "people-이광재",
-          title: '이광재',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/kwang-jae-lee/";
             },},{id: "people-kwangki-kim",
           title: 'KwangKi Kim',
           description: "",
@@ -251,71 +316,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/kyung-gon-noh/";
-            },},{id: "people-김민겸",
-          title: '김민겸',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/min-gyeom-kim/";
-            },},{id: "people-minwoo-gwon",
-          title: 'MinWoo Gwon',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/min-woo-gwon/";
-            },},{id: "people-sangho-jeon",
-          title: 'SangHo Jeon',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sang-ho-jeon/";
-            },},{id: "people-김상혁",
-          title: '김상혁',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sang-hyuk-kim/";
-            },},{id: "people-유승준",
-          title: '유승준',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/seung-jun-yoo/";
-            },},{id: "people-seungwon-nam",
-          title: 'SeungWon Nam',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/seung-won-nam/";
-            },},{id: "people-장수범",
-          title: '장수범',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/su-beom-jang/";
-            },},{id: "people-김선우",
-          title: '김선우',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sun-woo-kim/";
-            },},{id: "people-seonwoo-shin",
-          title: 'SeonWoo Shin',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sun-woo-shin/";
-            },},{id: "people-sunggin-noh",
-          title: 'SungGin Noh',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sung-jin-noh/";
-            },},{id: "people-sungjun-park",
-          title: 'SungJun Park',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sung-jun-park/";
-            },},{id: "people-이원형",
-          title: '이원형',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/won-hyung-lee/";
-            },},{id: "people-yonghee-kim",
-          title: 'YongHee Kim',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/yong-hee-kim/";
             },},{id: "projects-project-ev-smart-charging",
           title: 'Project Ev Smart Charging',
           description: "",
