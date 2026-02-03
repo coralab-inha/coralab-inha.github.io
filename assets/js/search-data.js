@@ -151,6 +151,11 @@ ninja.data = [{
           description: "",
           section: "Papers",handler: () => {
               window.location.href = "/papers/2025-yoo-supervised-learning/";
+            },},{id: "people-jae-heo",
+          title: 'Jae Heo',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/01_jae-heo/";
             },},{id: "people-김병욱",
           title: '김병욱',
           description: "",
@@ -186,11 +191,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/hyun-jae-sim/";
-            },},{id: "people-jae-heo",
-          title: 'Jae Heo',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jae-heo/";
             },},{id: "people-강지한",
           title: '강지한',
           description: "",
