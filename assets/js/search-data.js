@@ -216,8 +216,8 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/05_gi-hun-shin/";
-            },},{id: "people-seonwoo-shin",
-          title: 'SeonWoo Shin',
+            },},{id: "people-",
+          title: '',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/05_sun-woo-shin/";
