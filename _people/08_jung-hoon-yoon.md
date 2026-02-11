@@ -15,6 +15,5 @@ education:
 research_interests:
   - "Multi Robot Systems"
   - "Multi-Agent Path Planning"
-  - Robotics Team
 selected_publications: []
 ---
