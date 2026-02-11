@@ -246,8 +246,8 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/07_jung-wook-kim/";
-            },},{id: "people-jeonghun-yoon",
-          title: 'JeongHun Yoon',
+            },},{id: "people-jeonghun-youn",
+          title: 'JeongHun Youn',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/08_jung-hoon-yoon/";
