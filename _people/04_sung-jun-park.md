@@ -24,7 +24,7 @@ selected_publications:
   - authors: "SungJun Park, Jiwon Kim, Kwang-Ki K. Kim."
     title: "PiLS of Embedded Hybrid MPC for Fighter Aircraft Angle of Attack Control Using QP-based Approximation of MINLP"
     journal: "ICCAS 2025"
-    paper: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12540919"
+    paper: "https://ieeexplore.ieee.org/abstract/document/11301088"
     link : "https://sungjun66.github.io/researchpaper1/"
   - authors: "SungJun Park, Kwang-Ki K. Kim"
     title: "Embedded LMPC-based Lateral Stability for Automated Vehicles with Front and Rear Wheel Steering: Experimental Processor-in-the-loop Validation"
