@@ -1,0 +1,257 @@
+{
+  "updated": "2026-11-19",
+  "intro_en": "Research projects and education programs connecting fundamental methods, international collaboration, and industrial applications.",
+  "intro_ko": "국제공동연구와 기초연구, 대학원 교육 및 지역 산학협력 사업을 소개합니다.",
+  "projects": [
+    {
+      "id": "korea-japan",
+      "short_label": "한일국제공동연구",
+      "category": "International collaboration",
+      "title_en": "SafeRL-HRC: Robot Learning for Safe Human-Robot Collaboration",
+      "title_ko": "안전한 인간-로봇 협업을 위한 로봇 학습: 제약 강화학습과 형식 검증을 결합한 통합 프레임워크 연구",
+      "metadata": [
+        {
+          "label": "Program",
+          "value": "한일국제공동연구 · JST SICORP / NRF"
+        },
+        {
+          "label": "Project period",
+          "value": "2025.10.01 – 2028.09.30"
+        },
+        {
+          "label": "Partner",
+          "value": "Nara Institute of Science and Technology (NAIST), Japan"
+        },
+        {
+          "label": "Research leaders",
+          "value": "Kwang-Ki K. Kim (Inha University) · Takamitsu Matsubara (NAIST)"
+        }
+      ],
+      "overview_en": "This Korea–Japan collaboration combines constrained reinforcement learning with formal verification to develop robot learning methods for safe human–robot collaboration.",
+      "overview_ko": "인하대학교와 일본 NAIST가 협력하여 사람과 함께 작업하는 로봇의 안전한 학습 방법을 연구합니다. 제약 강화학습과 형식 검증을 하나의 프레임워크로 연결해 학습 정책의 성능과 안전 요구를 함께 다루는 것이 목표입니다.",
+      "focus": [
+        "안전 제약을 고려하는 강화학습과 로봇 정책 설계",
+        "형식 검증을 통한 안전 요구 분석과 학습·제어의 연계",
+        "인간–로봇 협업을 위한 한일 공동연구 및 연구자 교류"
+      ],
+      "links": [
+        {
+          "label": "JST project overview",
+          "url": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html"
+        }
+      ],
+      "related_links": [
+        {
+          "label": "Safe Learning for pHRI",
+          "url": "/research/#safe-learning-phri"
+        }
+      ],
+      "sources": [
+        "User-supplied coralab-inha.github.io-main.zip: _data/projects.yml (title and contractual dates)",
+        "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html"
+      ],
+      "editorial_note": "Full official English title: Robot Learning for Safe Human-Robot Collaboration: A Unified Framework Combining Constrained Reinforcement Learning and Formal Verification. The JST program FY2025–FY2028 and supplied Korean contract dates are consistent at fiscal-year level.",
+      "program_label": "Korea–Japan Joint Research"
+    },
+    {
+      "id": "mid-career",
+      "short_label": "중견연구",
+      "category": "Fundamental research",
+      "title_en": "GPU-Accelerated Path Optimization and Trajectory Estimation",
+      "title_ko": "GPU 가속화를 활용한 자율 로봇의 경로 최적화 및 궤적 추정 기법 연구",
+      "metadata": [
+        {
+          "label": "Program",
+          "value": "한국연구재단(NRF) 중견연구"
+        },
+        {
+          "label": "Project period",
+          "value": "2025.03.01 – 2028.02.29"
+        },
+        {
+          "label": "Research focus",
+          "value": "GPU acceleration · Path optimization · Trajectory estimation"
+        }
+      ],
+      "overview_en": "The project studies GPU-accelerated computational methods for real-time path optimization and trajectory estimation in autonomous robots, with an emphasis on autonomous mobile robots.",
+      "overview_ko": "GPU 병렬 연산을 활용하여 자율 로봇의 경로 최적화와 궤적 추정을 고속으로 수행하는 알고리즘을 연구합니다. 복잡한 환경에서 이동로봇이 실시간으로 경로를 계획하고 상태를 추정할 수 있도록 계산 방법과 구현 기술을 함께 다룹니다.",
+      "focus": [
+        "병렬 연산을 활용한 경로·궤적 최적화 알고리즘",
+        "실시간 자율주행을 위한 궤적 추정과 계획의 연계",
+        "GPU 기반 소프트웨어 구현 및 이동로봇 적용"
+      ],
+      "links": [],
+      "related_links": [
+        {
+          "label": "Embedded Learning and Control",
+          "url": "/research/#embedded-learning-control"
+        },
+        {
+          "label": "Multi-Robot Systems",
+          "url": "/research/#multi-robot-systems"
+        }
+      ],
+      "sources": [
+        "User-supplied coralab-inha.github.io-main.zip: _data/projects.yml",
+        "User-provided NRF Mid-career award context, 2025-04-05"
+      ],
+      "editorial_note": "English heading is an editorial translation. Exact dates use the supplied current project source, superseding earlier shorthand 2025–2027. No grant number or funding amount is published.",
+      "program_label": "NRF Mid-career"
+    },
+    {
+      "id": "bk21",
+      "short_label": "BK21",
+      "category": "Graduate education",
+      "title_en": "BK21 FOUR: ICT and Future Mobility",
+      "title_ko": "4단계 BK21 사업 · ICT-미래자동차 융합 교육연구단",
+      "metadata": [
+        {
+          "label": "Program",
+          "value": "4단계 BK21 사업 (혁신인재)"
+        },
+        {
+          "label": "Overall program period",
+          "value": "2020.09 – 2027.08"
+        },
+        {
+          "label": "Supporting agency",
+          "value": "한국연구재단(NRF)"
+        },
+        {
+          "label": "Institution",
+          "value": "인하대학교 대학원 전기컴퓨터공학과"
+        }
+      ],
+      "overview_en": "The ICT–Future Automotive Convergence education and research group develops graduate expertise at the intersection of ICT and future mobility. CORA links this training to research in control, estimation, and autonomous systems.",
+      "overview_ko": "ICT와 미래자동차 기술을 융합하는 석·박사급 전문인력 양성 사업입니다. CORA Lab의 제어·추정·최적화 및 자율시스템 연구와 연계하여 대학원생의 이론적 기반과 실제 시스템 구현 역량을 함께 강화합니다.",
+      "focus": [
+        "자율주행·미래 모빌리티를 위한 제어와 상태추정 연구",
+        "최적화 기반 로봇·차량 시스템 설계 및 임베디드 구현",
+        "연구 중심 대학원 교육과 학술 교류"
+      ],
+      "links": [
+        {
+          "label": "Inha BK21 program overview",
+          "url": "https://www.inhaece.co.kr/page/biz02"
+        }
+      ],
+      "related_links": [
+        {
+          "label": "Teaching",
+          "url": "/teaching/"
+        },
+        {
+          "label": "Graduate researchers",
+          "url": "/people/"
+        }
+      ],
+      "sources": [
+        "https://www.inhaece.co.kr/page/biz02",
+        "User explicitly identifies BK21 as a CORA project/program; lab research and teaching descriptions retained from current site"
+      ],
+      "editorial_note": "Period is the overall education/research group period, not an asserted individual participation interval. CORA focus bullets are editorial summaries of existing lab expertise, not quotes from the program.",
+      "program_label": "BK21 FOUR"
+    },
+    {
+      "id": "ax-graduate-school",
+      "short_label": "AX대학원",
+      "category": "AI and industry",
+      "title_en": "AX Graduate School: AI for Industry",
+      "title_ko": "인공지능혁신대학원(AX대학원) 사업",
+      "metadata": [
+        {
+          "label": "Institution",
+          "value": "인하대학교 인공지능혁신대학원"
+        },
+        {
+          "label": "Program period",
+          "value": "2026년 선정 · 2031년까지 지원"
+        },
+        {
+          "label": "Supporting ministry",
+          "value": "과학기술정보통신부"
+        },
+        {
+          "label": "CORA participation",
+          "value": "로봇AI 융합 도메인 · 김광기 교수(교육과정위원장)"
+        }
+      ],
+      "overview_en": "Inha’s AX Graduate School combines AI with domain expertise in manufacturing, logistics, and robotics. CORA contributes robotics, control, optimization, and Physical AI expertise through education and research.",
+      "overview_ko": "제조·물류·로봇 산업의 AI 전환을 이끌 전문인력을 양성하는 사업입니다. 산업 현장의 문제를 교육 및 산학공동연구와 연결하며, CORA Lab은 로보틱스·제어·최적화·Physical AI 분야를 중심으로 참여합니다.",
+      "focus": [
+        "로봇AI 융합 및 Physical AI 교육과정 개발",
+        "산업 수요를 반영한 산학공동프로젝트와 문제 해결 중심 교육",
+        "로봇의 인지·계획·제어를 연결하는 AI 융합 연구"
+      ],
+      "links": [
+        {
+          "label": "AX Graduate School",
+          "url": "https://aix.inha.ac.kr/"
+        },
+        {
+          "label": "Program announcement",
+          "url": "https://www.inhaece.co.kr/board/view?bd_id=news01&main=1&wr_id=550"
+        },
+        {
+          "label": "Faculty and roles",
+          "url": "https://aix.inha.ac.kr/about/members/faculty/"
+        }
+      ],
+      "related_links": [
+        {
+          "label": "Teaching and learning resources",
+          "url": "/teaching/"
+        }
+      ],
+      "sources": [
+        "https://www.inhaece.co.kr/board/view?bd_id=news01&main=1&wr_id=550",
+        "https://aix.inha.ac.kr/about/members/faculty/"
+      ],
+      "editorial_note": "Uses the actual Inha AI Innovation Graduate School selected in 2026; does not conflate it with the separate proposed AX manufacturing/on-device training consortium. No scholarships, budget, or industry contracts promised.",
+      "program_label": "AX Graduate Program"
+    },
+    {
+      "id": "regional-intelligence",
+      "short_label": "지역지능화",
+      "category": "Regional innovation",
+      "title_en": "Regional Intelligence and Innovation Talent Development",
+      "title_ko": "지역지능화혁신인재양성 사업",
+      "metadata": [
+        {
+          "label": "Program area",
+          "value": "산학공동연구 · 지역 산업 ICT 역량 강화"
+        },
+        {
+          "label": "Supporting organizations",
+          "value": "과학기술정보통신부 · 정보통신기획평가원(IITP)"
+        }
+      ],
+      "overview_en": "The program connects university ICT expertise with regional industry needs through joint research and advanced talent development, strengthening the ability of industry professionals to apply digital technologies.",
+      "overview_ko": "대학의 ICT 연구 역량을 산업 현장의 수요와 연결하여 지역 산업의 고도화와 전문인력 양성을 지원하는 사업입니다. 산학공동연구와 현장 문제 해결 중심의 교육을 통해 재직자의 ICT 활용 역량과 지역 혁신 기반을 강화합니다.",
+      "focus": [
+        "지역 산업 수요에 기반한 AI·소프트웨어 융합 산학공동연구",
+        "현장 문제 해결을 위한 실무 중심 교육과 전문인력 양성",
+        "대학과 산업체 간 기술·연구 교류"
+      ],
+      "links": [
+        {
+          "label": "National program overview (MSIT / IITP)",
+          "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020254&ancmPrg=ancmPre"
+        }
+      ],
+      "related_links": [
+        {
+          "label": "Industry collaboration inquiries",
+          "url": "/contact/"
+        }
+      ],
+      "sources": [
+        "User explicitly requests the regional-intelligence project on the lab site",
+        "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020254&ancmPrg=ancmPre"
+      ],
+      "editorial_note": "Program-level overview only. The lab-specific subproject, consortium, region, grant number, PI role and contract dates were not established. No Inha or Kyungnam consortium is asserted; the general 2026 call is linked for background, not evidence of a 2026 award.",
+      "program_label": "Regional Intelligence",
+      "scope_ko": "아래 내용은 전국 단위 사업의 목적과 지원 분야를 설명합니다."
+    }
+  ]
+}

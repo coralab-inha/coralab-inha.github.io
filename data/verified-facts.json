@@ -1,0 +1,231 @@
+{
+  "verified_date": "2026-11-05",
+  "lab": {
+    "name": "Computational Robotics and Autonomy Laboratory",
+    "short_name": "CORA Lab",
+    "institution": "Inha University",
+    "github": "https://github.com/i-ASL",
+    "scholar": "https://scholar.google.com/citations?user=BfaXDOAAAAAJ&hl=ko",
+    "youtube": "https://www.youtube.com/@INHAUniversityAutonomous-lt3ls",
+    "sources": [
+      "https://github.com/i-ASL"
+    ]
+  },
+  "pi": {
+    "name": "Kwang-Ki K. Kim",
+    "alternate_name": "Kwangki Kim",
+    "korean_name": "김광기",
+    "title": "Associate Professor",
+    "department": "Department of Electrical and Electronic Engineering",
+    "email": "kwangki.kim@inha.ac.kr",
+    "research_interests": [
+      "Robotics",
+      "Control",
+      "Optimization",
+      "Physical AI"
+    ],
+    "verified_service": "교육과정위원장, 인하대학교 인공지능융합연구센터 / 인공지능혁신대학원",
+    "faculty_url": "https://aix.inha.ac.kr/about/members/faculty/",
+    "directory_url": "https://inhaece.co.kr/page/prof01",
+    "portrait_url": "https://aix.inha.ac.kr/wordpress/wp-content/uploads/2026/09/%EA%B9%80%EA%B4%91%EA%B8%B0.png",
+    "orcid": "https://orcid.org/0000-0002-0499-7253",
+    "title_source": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html",
+    "room_note": "Public directories conflict: office HA-629, AX lab HA-615, older lab list HA-616. Omit precise room until confirmed.",
+    "membership_note": "No current student roster or professional society membership verified; do not infer from publication authors."
+  },
+  "publications": [
+    {
+      "title": "Attitude-aware Second-order Conic-constrained Trajectory Optimization for 6-DOF Quadrotor Precision Landing",
+      "authors": "Sung-Jin Noh, JunGee Hong, Kwang-Ki K. Kim",
+      "venue": "Journal of Korea Robotics Society",
+      "year": 2026,
+      "volume": "21",
+      "issue": "1",
+      "pages": "100-108",
+      "doi": "10.7746/jkros.2026.21.1.100",
+      "url": "https://doi.org/10.7746/jkros.2026.21.1.100",
+      "source": "https://jkros.org/xml/48725/48725.pdf",
+      "topic": "Aerial robotics; constrained trajectory optimization",
+      "id": "soc-quadrotor-landing",
+      "type": "Journal",
+      "authors_list": [
+        "Sung-Jin Noh",
+        "JunGee Hong",
+        "Kwang-Ki K. Kim"
+      ],
+      "provenance": [
+        "https://jkros.org/xml/48725/48725.pdf"
+      ]
+    },
+    {
+      "title": "Multi-Robot Relative Pose Estimation in SE(2) With Observability Analysis: A Comparison of Extended Kalman Filtering and Robust Pose Graph Optimization",
+      "authors": "Gihun Shin, Hyunjae Sim, Seungwon Nam, Yonghee Kim, Jae Heo, Kwang-Ki K. Kim",
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "year": 2025,
+      "volume": "10",
+      "issue": "8",
+      "pages": "4293-4315",
+      "doi": "10.1109/TIV.2024.3478290",
+      "url": "https://ieeexplore.ieee.org/document/10713843",
+      "source": "https://api.crossref.org/works/10.1109/TIV.2024.3478290",
+      "code": "https://github.com/i-ASL/MRS_RPESTM",
+      "preprint": "https://arxiv.org/abs/2401.15313",
+      "topic": "State estimation; multi-robot systems",
+      "id": "relative-pose",
+      "type": "Journal",
+      "authors_list": [
+        "Gihun Shin",
+        "Hyunjae Sim",
+        "Seungwon Nam",
+        "Yonghee Kim",
+        "Jae Heo",
+        "Kwang-Ki K. Kim"
+      ],
+      "provenance": [
+        "https://api.crossref.org/works/10.1109/TIV.2024.3478290"
+      ]
+    },
+    {
+      "title": "MPPI-IPDDP: A Hybrid Method of Collision-Free Smooth Trajectory Generation for Autonomous Robots",
+      "authors": "Min-Gyeom Kim, Minchan Jung, JunGee Hong, Kwang-Ki K. Kim",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "year": 2025,
+      "volume": "21",
+      "issue": "7",
+      "pages": "5037-5046",
+      "doi": "10.1109/TII.2024.3507940",
+      "url": "https://ieeexplore.ieee.org/document/10960717/",
+      "source": "https://api.crossref.org/works/10.1109/TII.2024.3507940",
+      "code": "https://github.com/i-ASL/mppi-ipddp",
+      "preprint": "https://arxiv.org/abs/2208.02439",
+      "topic": "Motion planning; optimal control",
+      "id": "mppi-ipddp",
+      "type": "Journal",
+      "authors_list": [
+        "Min-Gyeom Kim",
+        "Minchan Jung",
+        "JunGee Hong",
+        "Kwang-Ki K. Kim"
+      ],
+      "provenance": [
+        "https://api.crossref.org/works/10.1109/TII.2024.3507940"
+      ]
+    },
+    {
+      "title": "Recent advances in path integral control for trajectory optimization: An overview in theoretical and algorithmic perspectives",
+      "authors": "Muhammad Kazim, JunGee Hong, Min-Gyeom Kim, Kwang-Ki K. Kim",
+      "venue": "Annual Reviews in Control",
+      "year": 2024,
+      "volume": "57",
+      "article": "100931",
+      "doi": "10.1016/j.arcontrol.2023.100931",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1367578823000950",
+      "source": "https://api.crossref.org/works/10.1016/j.arcontrol.2023.100931",
+      "code": "https://github.com/i-ASL/An-Overview-on-Recent-Advances-in-Path-Integral-Control",
+      "preprint": "https://arxiv.org/abs/2309.12566",
+      "topic": "Sampling-based optimal control",
+      "id": "path-integral-review",
+      "type": "Journal",
+      "authors_list": [
+        "Muhammad Kazim",
+        "JunGee Hong",
+        "Min-Gyeom Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "provenance": [
+        "https://api.crossref.org/works/10.1016/j.arcontrol.2023.100931"
+      ]
+    },
+    {
+      "title": "Battery state-of-charge estimation using data-driven Gaussian process Kalman filters",
+      "authors": "Kwang-Jae Lee, Won-Hyung Lee, Kwang-Ki K. Kim",
+      "venue": "Journal of Energy Storage",
+      "year": 2023,
+      "volume": "72",
+      "article": "108392",
+      "doi": "10.1016/j.est.2023.108392",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352152X23017899",
+      "source": "https://api.crossref.org/works/10.1016/j.est.2023.108392",
+      "topic": "Gaussian processes; state estimation; energy systems",
+      "id": "gp-battery-estimation",
+      "type": "Journal",
+      "authors_list": [
+        "Kwang-Jae Lee",
+        "Won-Hyung Lee",
+        "Kwang-Ki K. Kim"
+      ],
+      "provenance": [
+        "https://api.crossref.org/works/10.1016/j.est.2023.108392"
+      ]
+    },
+    {
+      "id": "icp-correspondence",
+      "title": "A Fast Correspondence Matching for Iterative Closest Point Algorithm",
+      "authors": "Gunhee Shin, Jaehee Choi, Kwangki Kim",
+      "venue": "Journal of Korea Robotics Society",
+      "year": 2022,
+      "volume": "17",
+      "issue": "3",
+      "pages": "373-380",
+      "doi": "10.7746/jkros.2022.17.3.373",
+      "url": "https://doi.org/10.7746/jkros.2022.17.3.373",
+      "source": "https://jkros.org/_common/do.php?a=full&aidx=33776&b=33&bidx=3021",
+      "topic": "Localization; point-cloud registration",
+      "type": "Journal",
+      "authors_list": [
+        "Gunhee Shin",
+        "Jaehee Choi",
+        "Kwangki Kim"
+      ],
+      "provenance": [
+        "https://jkros.org/_common/do.php?a=full&aidx=33776&b=33&bidx=3021"
+      ]
+    }
+  ],
+  "project": {
+    "name": "Robot Learning for Safe Human-Robot Collaboration: A Unified Framework Combining Constrained Reinforcement Learning and Formal Verification",
+    "abbreviation": "SafeRL-HRC",
+    "period": "FY2025-FY2028",
+    "partner": "Takamitsu Matsubara, Nara Institute of Science and Technology",
+    "source": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html"
+  },
+  "photo_candidates": [
+    {
+      "caption": "UWB-IMU experimental setup",
+      "url": "https://github.com/user-attachments/assets/8e8b76ed-4682-434a-b2a4-71f2e6146352",
+      "source": "https://github.com/i-ASL/Tightly_Coupled_UWB-IMU_Fusion",
+      "local_path": "/workspace/scratch/48347c5aa349/cora-factual-assets/uwb-imu-setup.png",
+      "visually_verified": true
+    },
+    {
+      "caption": "Multi-robot relative pose estimation environment",
+      "url": "https://github.com/user-attachments/assets/3a715daf-36a6-42d9-a024-5b18964e8a25",
+      "source": "https://github.com/i-ASL/MRS_RPESTM",
+      "local_path": "/workspace/scratch/48347c5aa349/cora-factual-assets/multi-robot-environment.png",
+      "visually_verified": true
+    }
+  ],
+  "news": [
+    {
+      "date": "2026",
+      "title": "Conic-constrained trajectory optimization for precision quadrotor landing",
+      "text": "Our study of attitude-aware trajectory optimization for 6-DOF quadrotor precision landing is published in the Journal of Korea Robotics Society.",
+      "url": "https://doi.org/10.7746/jkros.2026.21.1.100",
+      "source": "https://jkros.org/xml/48725/48725.pdf"
+    },
+    {
+      "date": "Jul 2025",
+      "title": "MPPI-IPDDP in IEEE Transactions on Industrial Informatics",
+      "text": "Our hybrid method combines sampling-based planning with constrained trajectory refinement for collision-free robot motion.",
+      "url": "https://doi.org/10.1109/TII.2024.3507940",
+      "source": "https://api.crossref.org/works/10.1109/TII.2024.3507940"
+    },
+    {
+      "date": "2025–2028",
+      "title": "SafeRL-HRC: international research collaboration",
+      "text": "CORA participates in a Japan–Korea collaboration on safe robot learning, combining constrained reinforcement learning and formal verification with the Nara Institute of Science and Technology.",
+      "url": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html",
+      "source": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "metadata": {
+    "title": "PEOPLE",
+    "description": "Our team of professor and students."
+  },
+  "header": {
+    "title": "PEOPLE",
+    "description": "Our team of researchers and students."
+  },
+  "categories": [
+    {
+      "key": "professor",
+      "title": "Professor"
+    },
+    {
+      "key": "postdoc",
+      "title": "Postdoctoral Researchers"
+    },
+    {
+      "key": "phd",
+      "title": "Ph.D. Students"
+    },
+    {
+      "key": "ms",
+      "title": "M.S. Students"
+    },
+    {
+      "key": "undergrad",
+      "title": "Undergraduate Students"
+    },
+    {
+      "key": "alumni",
+      "title": "Alumni"
+    }
+  ],
+  "people": [
+    {
+      "layout": "profile",
+      "title": "DuYong Jin",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "dyjin@inha.edu",
+      "image": "/assets/people/Duyong.png",
+      "education": [],
+      "research_interests": [
+        "xEV Team"
+      ],
+      "selected_publications": [],
+      "id": "doo-yong-jin",
+      "source_filename": "_people/01_doo-yong-jin.md",
+      "source_image": "/assets/img/people/Duyong.png",
+      "research_name_ko": "진두용"
+    },
+    {
+      "layout": "profile",
+      "title": "Jae Heo",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "adamheo@inha.edu",
+      "image": "/assets/people/Jae.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "jae-heo",
+      "source_filename": "_people/01_jae-heo.md",
+      "source_image": "/assets/img/people/Jae.png",
+      "research_name_ko": "허재"
+    },
+    {
+      "layout": "profile",
+      "title": "김지원",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "ji-won-kim",
+      "source_filename": "_people/01_ji-won-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "Yeohosua Kim",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "neuya@inha.edu",
+      "image": "/assets/people/Yeohosua.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "joshua-kim",
+      "source_filename": "_people/02_joshua-kim.md",
+      "source_image": "/assets/img/people/Yeohosua.png",
+      "research_name_ko": "김여호수아"
+    },
+    {
+      "layout": "profile",
+      "title": "MinWoo Gwon",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "minu@inha.edu",
+      "image": "/assets/people/kwon.png",
+      "education": [],
+      "research_interests": [
+        "xEV Team"
+      ],
+      "selected_publications": [],
+      "id": "min-woo-gwon",
+      "source_filename": "_people/02_min-woo-gwon.md",
+      "source_image": "/assets/img/people/kwon.png",
+      "research_name_ko": "권민우"
+    },
+    {
+      "layout": "profile",
+      "title": "유승준",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "seung-jun-yoo",
+      "source_filename": "_people/02_seung-jun-yoo.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "김병욱",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "byeong-uk-kim",
+      "source_filename": "_people/03_byeong-uk-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "Jun Gee Hong",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "wnsrl970219@inha.edu",
+      "image": "/assets/people/JunGee.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "jun-gee-hong",
+      "source_filename": "_people/03_jun-gee-hong.md",
+      "source_image": "/assets/img/people/JunGee.png",
+      "research_name_ko": "홍준기"
+    },
+    {
+      "layout": "profile",
+      "title": "SungGin Noh",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "mattnoh@inha.edu",
+      "image": "/assets/people/Sungjin.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "sung-jin-noh",
+      "source_filename": "_people/03_sung-jin-noh.md",
+      "source_image": "/assets/img/people/Sungjin.png",
+      "research_name_ko": "노성진"
+    },
+    {
+      "layout": "profile",
+      "title": "심현재",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "hyun-jae-sim",
+      "source_filename": "_people/04_hyun-jae-sim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "SeungWon Nam",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "swnam97@inha.edu",
+      "image": "/assets/people/Seungwon.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "seung-won-nam",
+      "source_filename": "_people/04_seung-won-nam.md",
+      "source_image": "/assets/img/people/Seungwon.png",
+      "research_name_ko": "남승원"
+    },
+    {
+      "layout": "profile",
+      "title": "SungJun Park",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "wns2504@inha.edu",
+      "image": "/assets/people/Sungjun.png",
+      "education": [
+        {
+          "degree": "M.S. in Electrical and Computer Engineering",
+          "institution": "Inha University",
+          "year": "2025.03 - Present"
+        },
+        {
+          "degree": "B.S. in Mechanical Engineering",
+          "institution": "Inha University",
+          "year": "2023.03 - 2025.02"
+        }
+      ],
+      "research_interests": [
+        "Vehicle Chassis Control & Estimation",
+        "Embedded Model Predictive Control"
+      ],
+      "selected_publications": [
+        {
+          "authors": "SungJun Park, Kwang-Ki K. Kim",
+          "title": "LPV-MPC for Lateral Stability Enhancement of Four-wheel Steering Vehicles With Real-time Embedded PiLS Validation",
+          "journal": "Journal of Institute of Control, Robotics and Systems",
+          "paper": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12485779",
+          "link": "https://sungjun66.github.io/researchpaper/"
+        },
+        {
+          "authors": "SungJun Park, Jiwon Kim, Kwang-Ki K. Kim.",
+          "title": "PiLS of Embedded Hybrid MPC for Fighter Aircraft Angle of Attack Control Using QP-based Approximation of MINLP",
+          "journal": "ICCAS 2025",
+          "paper": "https://ieeexplore.ieee.org/abstract/document/11301088",
+          "link": "https://sungjun66.github.io/researchpaper1/"
+        },
+        {
+          "authors": "SungJun Park, Kwang-Ki K. Kim",
+          "title": "Embedded LMPC-based Lateral Stability for Automated Vehicles with Front and Rear Wheel Steering: Experimental Processor-in-the-loop Validation",
+          "journal": "ICROS 2025",
+          "paper": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313482"
+        }
+      ],
+      "id": "sung-jun-park",
+      "source_filename": "_people/04_sung-jun-park.md",
+      "source_image": "/assets/img/people/Sungjun.png",
+      "research_name_ko": "박성준"
+    },
+    {
+      "layout": "profile",
+      "title": "신기훈",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "gi-hun-shin",
+      "source_filename": "_people/05_gi-hun-shin.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "SeonWoo Shin",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "22251343@inha.edu",
+      "image": "/assets/people/Seonwoo.png",
+      "education": [
+        {
+          "degree": "M.S. in Electrical and Computer Engineering",
+          "institution": "Inha University",
+          "year": "2025.03 - Present"
+        },
+        {
+          "degree": "B.S. in Electrical Engineering",
+          "institution": "Inha University",
+          "year": "2018.03 - 2025.02"
+        }
+      ],
+      "research_interests": [
+        "Energy management Control & Fuel economy optimization",
+        "Embedded Model Predictive Control"
+      ],
+      "selected_publications": [],
+      "id": "sun-woo-shin",
+      "source_filename": "_people/05_sun-woo-shin.md",
+      "source_image": "/assets/img/people/Seonwoo.png",
+      "research_name_ko": "신선우"
+    },
+    {
+      "layout": "profile",
+      "title": "YongHee Kim",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "kyh7238@inha.edu",
+      "image": "/assets/people/Yonghee.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "yong-hee-kim",
+      "source_filename": "_people/05_yong-hee-kim.md",
+      "source_image": "/assets/img/people/Yonghee.png",
+      "research_name_ko": "김용희"
+    },
+    {
+      "layout": "profile",
+      "title": "GeonWoo Kim",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "dagonkw@inha.edu",
+      "image": "/assets/people/geonwoo.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "gun-woo-kim",
+      "source_filename": "_people/06_gun-woo-kim.md",
+      "source_image": "/assets/img/people/geonwoo.png",
+      "research_name_ko": "김건우"
+    },
+    {
+      "layout": "profile",
+      "title": "김선우",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "sun-woo-kim",
+      "source_filename": "_people/06_sun-woo-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "김주현",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "joo-hyun-kim",
+      "source_filename": "_people/07_joo-hyun-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "JeongUk Kim",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "12200646@inha.edu",
+      "image": "/assets/people/Jeonguk.png",
+      "education": [
+        {
+          "degree": "M.S. in Electrical and Computer Engineering",
+          "institution": "Inha University",
+          "year": "2026.03 - Present"
+        },
+        {
+          "degree": "B.S. in Naval architecture occean Engineering & Electrical Engineering",
+          "institution": "Inha University",
+          "year": "2020.03 - 2026.02"
+        }
+      ],
+      "research_interests": [
+        "Stochastic Optimal Control",
+        "Constraint-Aware Trajectory Optimization",
+        "Variational Inference for MPPI"
+      ],
+      "selected_publications": [],
+      "id": "jung-wook-kim",
+      "source_filename": "_people/07_jung-wook-kim.md",
+      "source_image": "/assets/img/people/Jeonguk.png",
+      "research_name_ko": "김정욱"
+    },
+    {
+      "layout": "profile",
+      "title": "JeongHun Youn",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "billy0050@naver.com",
+      "image": "/assets/people/Jeonghun.png",
+      "education": [
+        {
+          "degree": "M.S. in Electrical and Computer Engineering",
+          "institution": "Inha University",
+          "year": "2026.03 - Present"
+        },
+        {
+          "degree": "B.S. in Robot and Automation Engineering",
+          "institution": "Dong-Eui University",
+          "year": "2018.03 - 2024.02"
+        }
+      ],
+      "research_interests": [
+        "Multi Robot Systems",
+        "Multi-Agent Path Planning"
+      ],
+      "selected_publications": [],
+      "id": "jung-hoon-yoon",
+      "source_filename": "_people/08_jung-hoon-yoon.md",
+      "source_image": "/assets/img/people/Jeonghun.png",
+      "research_name_ko": "윤정훈"
+    },
+    {
+      "layout": "profile",
+      "title": "김민겸",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "min-gyeom-kim",
+      "source_filename": "_people/08_min-gyeom-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "이광재",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "kwang-jae-lee",
+      "source_filename": "_people/09_kwang-jae-lee.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "SangHo Jeon",
+      "category": "ms",
+      "role": "M.S. Student",
+      "email": "12200620@inha.edu",
+      "image": "/assets/people/Sangho.png",
+      "education": [
+        {
+          "degree": "M.S. in Electrical and Computer Engineering",
+          "institution": "Inha University",
+          "year": "2026.03 - Present"
+        },
+        {
+          "degree": "B.S. in Aerospace Engineering",
+          "institution": "Inha University",
+          "year": "2020.03 - 2026.02"
+        }
+      ],
+      "research_interests": [
+        "Optimal Control",
+        "Trajectory Optimization",
+        "Autonomous systems",
+        "Task and Motion Planning"
+      ],
+      "selected_publications": [],
+      "id": "sang-ho-jeon",
+      "source_filename": "_people/09_sang-ho-jeon.md",
+      "source_image": "/assets/img/people/Sangho.png",
+      "research_name_ko": "전상호"
+    },
+    {
+      "layout": "profile",
+      "title": "이원형",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "won-hyung-lee",
+      "source_filename": "_people/09_won-hyung-lee.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "김상혁",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "sang-hyuk-kim",
+      "source_filename": "_people/10_sang-hyuk-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "김훈희",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "hoon-hee-kim",
+      "source_filename": "_people/11_hoon-hee-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "배진우",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "jin-woo-bae",
+      "source_filename": "_people/12_jin-woo-bae.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "김진성",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "jin-sung-kim",
+      "source_filename": "_people/13_jin-sung-kim.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "장수범",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "su-beom-jang",
+      "source_filename": "_people/14_su-beom-jang.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "강지한",
+      "category": "alumni",
+      "role": "Alumni",
+      "email": "",
+      "image": "/assets/people/default.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "ji-han-kang",
+      "source_filename": "_people/15_ji-han-kang.md",
+      "source_image": "/assets/img/people/default.png"
+    },
+    {
+      "layout": "profile",
+      "title": "HwanCheul Hwang",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "anderhwang@inha.edu",
+      "image": "/assets/people/Hwancheul.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "hwan-cheol-hwang",
+      "source_filename": "_people/hwan-cheol-hwang.md",
+      "source_image": "/assets/img/people/Hwancheul.png",
+      "research_name_ko": "황환철"
+    },
+    {
+      "layout": "profile",
+      "title": "KwangKi Kim",
+      "category": "professor",
+      "role": "Professor",
+      "email": "kwangki.kim@inha.ac.kr",
+      "image": "/assets/people/Kwangki.png",
+      "education": [],
+      "research_interests": [],
+      "selected_publications": [],
+      "id": "kwangki-kim",
+      "display_name": "Kwang-Ki K. Kim",
+      "source_filename": "_people/kwang-ki-kim.md",
+      "source_image": "/assets/img/people/Kwangki.png"
+    },
+    {
+      "layout": "profile",
+      "title": "KyungGon Noh",
+      "category": "phd",
+      "role": "Ph.D. Student",
+      "email": "goni.noh@inha.edu",
+      "image": "/assets/people/Kyunggon.png",
+      "education": [],
+      "research_interests": [
+        "Robotics Team"
+      ],
+      "selected_publications": [],
+      "id": "kyung-gon-noh",
+      "source_filename": "_people/kyung-gon-noh.md",
+      "source_image": "/assets/img/people/Kyunggon.png",
+      "research_name_ko": "노경곤"
+    },
+    {
+      "title": "정민찬",
+      "category": "alumni",
+      "role": "Alumni",
+      "id": "alumni-17"
+    }
+  ]
+}

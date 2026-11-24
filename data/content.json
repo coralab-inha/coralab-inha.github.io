@@ -1,0 +1,245 @@
+{
+  "mission": "We develop optimization, probabilistic inference, and learning methods that enable robots to estimate their state, plan purposeful motion, and act reliably in complex environments.",
+  "approach": [
+    "Use mathematical structure to design efficient estimation, planning, and control algorithms.",
+    "Connect model-based methods with data-driven learning while respecting system constraints.",
+    "Validate algorithms through simulation, real-time implementation, and robot experiments."
+  ],
+  "research": [
+    {
+      "id": "contact-aware-whole-body-control",
+      "title": "Contact-Aware Whole-Body Control",
+      "short": "Coordinating whole-body motion and contact forces for stable robot interaction.",
+      "body": "We study whole-body control that explicitly accounts for robot–environment contacts. Our focus is on coordinating motion and contact forces under dynamic, kinematic, and friction constraints, connecting model-based optimization with learning for stable and adaptable robot behavior.",
+      "body_ko": "로봇과 환경 사이의 접촉을 고려하여 전신 움직임과 접촉력을 함께 제어하는 방법을 연구합니다. 동역학·기구학·마찰 제약을 반영한 최적화와 학습을 결합하고, 접촉 상태가 변하는 상황에서도 안정적이고 유연한 동작을 구현하는 데 초점을 둡니다.",
+      "topics": [
+        "Whole-body control",
+        "Contact dynamics",
+        "Force and motion control",
+        "Constrained optimization"
+      ],
+      "participants": [
+        "홍준기",
+        "조명근",
+        "오창석"
+      ],
+      "links": []
+    },
+    {
+      "id": "embedded-learning-control",
+      "title": "Embedded Learning and Control",
+      "short": "Bringing learning, estimation, and feedback control to real-time embedded systems.",
+      "body": "We develop learning and control methods that can run within the computational and timing limits of embedded hardware. Research connects state estimation, model predictive control, and data-driven models with efficient numerical implementation and hardware-in-the-loop validation.",
+      "body_ko": "연산 자원과 실행 시간이 제한된 임베디드 환경에서 동작하는 학습·추정·제어 기법을 연구합니다. 상태추정, 모델예측제어, 데이터 기반 모델을 효율적인 수치 구현과 연결하고, 실시간 실행 및 하드웨어 연계 검증을 통해 실제 시스템 적용을 다룹니다.",
+      "topics": [
+        "Embedded optimization",
+        "Real-time estimation and control",
+        "Learning-based models",
+        "Hardware-in-the-loop validation"
+      ],
+      "participants": [
+        "진두용",
+        "권민우",
+        "이도윤",
+        "김화랑"
+      ],
+      "links": []
+    },
+    {
+      "id": "autonomous-aerial-robotics",
+      "aliases": [
+        "aerial"
+      ],
+      "title": "Autonomous Aerial Robotics",
+      "short": "Estimation, trajectory planning, and feedback control for autonomous flight.",
+      "body": "We develop estimation, planning, and control methods for aerial robots operating under dynamic and geometric constraints. Topics include sensor fusion, trajectory optimization, and precision landing, with an emphasis on connecting autonomous decision-making to reliable real-time flight control.",
+      "body_ko": "비행로봇의 자율 운용을 위한 상태추정, 경로·궤적 계획, 피드백 제어를 연구합니다. 센서 융합과 동역학·기하 제약을 고려한 궤적 최적화, 정밀 착륙을 다루며, 자율 의사결정과 실시간 비행제어를 연결합니다.",
+      "topics": [
+        "Aerial state estimation",
+        "Trajectory optimization",
+        "Precision landing",
+        "Constrained flight control"
+      ],
+      "participants": [
+        "김용희",
+        "노성진",
+        "전상호"
+      ],
+      "links": [
+        {
+          "label": "Quadrotor precision landing paper",
+          "url": "https://doi.org/10.7746/jkros.2026.21.1.100"
+        }
+      ]
+    },
+    {
+      "id": "multi-robot-systems",
+      "aliases": [
+        "estimation"
+      ],
+      "title": "Multi-Robot Systems",
+      "short": "Cooperative localization, planning, and coordination for teams of robots.",
+      "body": "We investigate how multiple robots estimate their relative states, share information, and coordinate motion. Our work combines sensor fusion and pose graph optimization with multi-agent planning, addressing uncertainty, communication limits, and conflicts between robot trajectories.",
+      "body_ko": "여러 로봇이 서로의 상태를 추정하고 정보를 공유하며 협력적으로 이동하는 방법을 연구합니다. 센서 융합과 포즈 그래프 최적화를 다중 에이전트 경로 계획과 연결하고, 추정 불확실성·통신 제약·로봇 간 경로 충돌을 함께 다룹니다.",
+      "topics": [
+        "Cooperative localization",
+        "Relative pose estimation",
+        "Multi-agent path planning",
+        "Distributed coordination"
+      ],
+      "participants": [
+        "김건우",
+        "김정욱",
+        "윤정훈",
+        "(황환철)"
+      ],
+      "links": [
+        {
+          "label": "Relative pose estimation paper",
+          "url": "https://doi.org/10.1109/TIV.2024.3478290"
+        },
+        {
+          "label": "Experiment code",
+          "url": "https://github.com/i-ASL/MRS_RPESTM"
+        },
+        {
+          "label": "UWB–IMU fusion",
+          "url": "https://github.com/i-ASL/Tightly_Coupled_UWB-IMU_Fusion"
+        }
+      ],
+      "image": "multi-robot-environment.png",
+      "caption": "Experimental environment for multi-robot relative pose estimation, using mobile robots and UWB sensing.",
+      "image_source": "https://github.com/i-ASL/MRS_RPESTM"
+    },
+    {
+      "id": "safe-learning-phri",
+      "aliases": [
+        "learning"
+      ],
+      "title": "Safe Learning for pHRI",
+      "short": "Safety-aware learning for physical human–robot interaction.",
+      "body": "We study safe learning for physical human–robot interaction (pHRI), where robots and people interact through shared motion and physical contact. Our research connects constrained reinforcement learning, formal verification, and interaction control to incorporate safety requirements into robot policies and feedback controllers.",
+      "body_ko": "사람과 로봇이 움직임과 물리적 접촉을 통해 상호작용하는 pHRI를 위한 안전 학습을 연구합니다. 제약 강화학습, 형식 검증, 상호작용 제어를 연결하여 학습 정책과 피드백 제어에 안전 요구를 반영하고, 인간–로봇 협업을 위한 방법론을 개발합니다.",
+      "topics": [
+        "Physical human–robot interaction",
+        "Safe reinforcement learning",
+        "Formal verification",
+        "Interaction control"
+      ],
+      "participants": [
+        "남승원",
+        "허재",
+        "배재영",
+        "(노경곤)",
+        "(김여호수아)"
+      ],
+      "links": [
+        {
+          "label": "Japan–Korea collaboration overview",
+          "url": "https://www.jst.go.jp/inter/english/program_e/sicorp_e/korea.html"
+        }
+      ]
+    },
+    {
+      "id": "planning-control-cavs",
+      "aliases": [
+        "planning",
+        "mobility"
+      ],
+      "title": "Planning and Control for CAVs",
+      "short": "Safe and efficient motion planning and control for connected and automated vehicles.",
+      "body": "We investigate planning and control for connected and automated vehicles (CAVs), linking trajectory generation with vehicle dynamics and feedback control. Research topics include constrained model predictive control, vehicle state estimation, integrated motion control, and energy-aware speed and charging planning.",
+      "body_ko": "커넥티드·자율주행 차량(CAVs)의 경로·궤적 계획과 제어를 연구합니다. 차량 동역학과 피드백 제어를 고려한 계획, 제약 기반 모델예측제어, 차량 상태추정 및 통합 운동제어를 다루며, 에너지 효율을 고려한 속도·충전 계획으로 연구를 확장합니다.",
+      "topics": [
+        "Vehicle motion planning",
+        "Model predictive control",
+        "Integrated motion control",
+        "Energy-aware mobility"
+      ],
+      "participants": [
+        "신선우",
+        "박성준",
+        "정성운"
+      ],
+      "links": [
+        {
+          "label": "MPPI-IPDDP paper",
+          "url": "https://doi.org/10.1109/TII.2024.3507940"
+        },
+        {
+          "label": "Path integral control overview",
+          "url": "https://doi.org/10.1016/j.arcontrol.2023.100931"
+        },
+        {
+          "label": "BiC-MPPI code",
+          "url": "https://github.com/i-ASL/BiC-MPPI"
+        },
+        {
+          "label": "Battery estimation paper",
+          "url": "https://doi.org/10.1016/j.est.2023.108392"
+        },
+        {
+          "label": "evS²CP preprint",
+          "url": "https://arxiv.org/abs/2412.09109"
+        }
+      ],
+      "image": "bic-mppi-scheme.png",
+      "caption": "Bidirectional sampling and rollout clustering in the BiC-MPPI research project.",
+      "image_source": "https://github.com/i-ASL/BiC-MPPI"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Computational Robotics",
+      "description": "Mathematical and computational methods for state estimation, motion planning, and safe robot control.",
+      "topics": [
+        "Convex optimization",
+        "Control barrier functions",
+        "Probabilistic inference",
+        "Multi-robot systems"
+      ]
+    },
+    {
+      "title": "Robot Control Software",
+      "description": "Software implementation of robot models, estimation algorithms, and feedback controllers, connecting theory to real-time operation.",
+      "topics": [
+        "Robot modeling",
+        "Feedback control",
+        "Simulation",
+        "Implementation"
+      ]
+    },
+    {
+      "title": "Principles of Autonomy",
+      "description": "Core concepts in autonomous systems, from sensing and state estimation to planning, decision making, and control.",
+      "topics": [
+        "Perception",
+        "State estimation",
+        "Planning",
+        "Autonomous decision making"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "MPPI-IPDDP",
+      "url": "https://github.com/i-ASL/mppi-ipddp",
+      "description": "Hybrid sampling and trajectory optimization."
+    },
+    {
+      "name": "BiC-MPPI",
+      "url": "https://github.com/i-ASL/BiC-MPPI",
+      "description": "Bidirectional rollout clustering for path integral control."
+    },
+    {
+      "name": "Multi-robot relative pose estimation",
+      "url": "https://github.com/i-ASL/MRS_RPESTM",
+      "description": "Filtering and pose graph estimation experiments."
+    },
+    {
+      "name": "Path integral control overview",
+      "url": "https://github.com/i-ASL/An-Overview-on-Recent-Advances-in-Path-Integral-Control",
+      "description": "Companion resources for the review article."
+    }
+  ]
+}
