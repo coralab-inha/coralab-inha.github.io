@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580" role="img" aria-labelledby="cora-title cora-desc">
+  <title id="cora-title">CORA — Computational Robotics and Autonomy</title>
+  <desc id="cora-desc">Original conceptual line illustration linking a ground robot, a quadrotor, and a landing vehicle through sampled trajectories and a sparse factor graph. The drawing is an abstract research schematic, not experimental data.</desc>
+  <rect width="1000" height="580" fill="#fff"/>
+
+  <!-- Original restrained wordmark. No external images, fonts or filters. -->
+  <g fill="#17485e" font-family="Open Sans, Helvetica, Arial, sans-serif" font-size="126" font-weight="300" letter-spacing="18">
+    <text x="509" y="176" text-anchor="middle">CORA</text>
+  </g>
+  <path d="M426 207H574" fill="none" stroke="#217e85" stroke-width="2"/>
+
+  <!-- Sparse factor graph: circles are state nodes, squares are constraints. -->
+  <g fill="none" stroke="#d8e3e6" stroke-width="1.4">
+    <path d="M175 428L279 465L388 435L500 470L614 435L722 465L825 428"/>
+    <path d="M279 465L337 349L500 317L663 349L722 465"/>
+    <path d="M388 435L500 317L614 435M337 349L388 435M663 349L614 435"/>
+  </g>
+  <g fill="#fff" stroke="#acc3c9" stroke-width="1.5">
+    <circle cx="279" cy="465" r="7"/><circle cx="388" cy="435" r="7"/>
+    <circle cx="500" cy="470" r="7"/><circle cx="614" cy="435" r="7"/>
+    <circle cx="722" cy="465" r="7"/>
+    <circle cx="337" cy="349" r="6"/><circle cx="663" cy="349" r="6"/>
+  </g>
+  <g fill="#d4e2e5">
+    <rect x="327" y="447" width="9" height="9"/>
+    <rect x="438" y="448" width="9" height="9"/>
+    <rect x="552" y="448" width="9" height="9"/>
+    <rect x="664" y="447" width="9" height="9"/>
+    <rect x="414" y="328" width="9" height="9"/>
+    <rect x="577" y="328" width="9" height="9"/>
+  </g>
+
+  <!-- Feasible and sampled motion paths; illustrative only. -->
+  <g fill="none" stroke="#b9d3d5" stroke-width="1.2" stroke-dasharray="3 6">
+    <path d="M236 406C296 395 321 290 417 294S531 375 603 350S710 303 760 371"/>
+    <path d="M236 406C310 415 334 308 418 317S523 379 603 365S715 328 760 371"/>
+    <path d="M236 406C302 377 332 262 421 279S530 349 606 334S711 282 760 371"/>
+  </g>
+  <path d="M236 406C308 392 332 289 420 302S532 362 605 350S714 307 760 371" fill="none" stroke="#217e85" stroke-width="2.2"/>
+  <g fill="#217e85">
+    <circle cx="286" cy="374" r="3"/><circle cx="354" cy="311" r="3"/>
+    <circle cx="618" cy="347" r="3"/><circle cx="711" cy="332" r="3"/>
+  </g>
+
+  <!-- Ground robot: a wheeled mobile base and a range sensor. -->
+  <g transform="translate(205 405)" stroke="#17485e" fill="#fff" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-49 2L-36-23H29L48 0V23H-49Z" fill="#f5f8f9"/>
+    <path d="M-36-23L-21-34H38L29-23M38-34L54-10L48 0"/>
+    <path d="M-49 2H48M-18-24V-34M16-24V-34" stroke="#9db8c0" stroke-width="1.4"/>
+    <circle cx="-31" cy="23" r="13" fill="#17485e"/><circle cx="32" cy="23" r="13" fill="#17485e"/>
+    <circle cx="-31" cy="23" r="5" stroke="#fff" fill="none" stroke-width="1.8"/><circle cx="32" cy="23" r="5" stroke="#fff" fill="none" stroke-width="1.8"/>
+    <path d="M-3-34V-46H17V-34" fill="#eaf2f3"/>
+    <ellipse cx="7" cy="-47" rx="13" ry="5" fill="#217e85" stroke="#217e85"/>
+    <path d="M-14 13H16" stroke="#217e85" stroke-width="2.3"/>
+  </g>
+  <path d="M139 447H266" stroke="#d8e3e6" stroke-width="1.4"/>
+
+  <!-- Quadrotor: four rotors and a central flight body, viewed from above. -->
+  <g transform="translate(500 314)" stroke="#17485e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="#fff">
+    <path d="M-10-9L-49-30M10-9L49-30M-10 9L-49 30M10 9L49 30" stroke-width="5"/>
+    <g stroke="#217e85" stroke-width="1.8">
+      <ellipse cx="-52" cy="-32" rx="27" ry="11"/><ellipse cx="52" cy="-32" rx="27" ry="11"/>
+      <ellipse cx="-52" cy="32" rx="27" ry="11"/><ellipse cx="52" cy="32" rx="27" ry="11"/>
+    </g>
+    <g stroke-width="2">
+      <path d="M-67-32H-37M37-32H67M-67 32H-37M37 32H67"/>
+      <circle cx="-52" cy="-32" r="3" fill="#17485e"/><circle cx="52" cy="-32" r="3" fill="#17485e"/>
+      <circle cx="-52" cy="32" r="3" fill="#17485e"/><circle cx="52" cy="32" r="3" fill="#17485e"/>
+    </g>
+    <path d="M-12-18H12L18-10V11L9 20H-9L-18 11V-10Z" fill="#f1f6f7"/>
+    <path d="M-5-8L0-13L5-8" stroke="#217e85" stroke-width="2"/>
+    <circle cx="0" cy="5" r="5" stroke="#217e85" stroke-width="1.8"/>
+  </g>
+
+  <!-- Landing vehicle: body, antenna, landing legs, and thrust nozzle. -->
+  <g transform="translate(796 402)" fill="#fff" stroke="#17485e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-27-33H27L37-4L24 17H-24L-37-4Z" fill="#f5f8f9"/>
+    <path d="M-27-33L-15-47H15L27-33M0-47V-60L13-67"/>
+    <path d="M7-72Q19-67 15-57" stroke="#217e85" stroke-width="1.8"/>
+    <path d="M-31 2L-54 36M31 2L54 36M-19 17L-42 36M19 17L42 36"/>
+    <path d="M-63 37H-43M43 37H63" stroke-width="3"/>
+    <path d="M-10 17L-14 29H14L10 17" fill="#eaf2f3"/>
+    <path d="M-14-19H14V1H-14Z" stroke="#217e85" stroke-width="1.6"/>
+    <path d="M-14-9H14M0-19V1" stroke="#217e85" stroke-width="1"/>
+  </g>
+  <path d="M719 447H872" stroke="#d8e3e6" stroke-width="1.4"/>
+
+  <!-- Quiet baseline keeps the three vehicle scales visually coherent. -->
+  <path d="M160 510H840" stroke="#e9eef0" stroke-width="1"/>
+  <g fill="#217e85"><circle cx="205" cy="510" r="3"/><circle cx="500" cy="510" r="3"/><circle cx="796" cy="510" r="3"/></g>
+</svg>

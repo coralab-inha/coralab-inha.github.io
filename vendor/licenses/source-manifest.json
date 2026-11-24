@@ -1,0 +1,27 @@
+[
+  {
+    "file": "SOURCE-SANS-OFL.txt",
+    "source": "https://github.com/adobe-fonts/source-sans/blob/release/LICENSE.md",
+    "git_blob_sha": "22c601b82f29fc6bb801445098c9f23ffdca4f94"
+  },
+  {
+    "file": "OPEN-SANS-OFL.txt",
+    "source": "https://github.com/google/fonts/blob/main/ofl/opensans/OFL.txt",
+    "git_blob_sha": "d762c3c4629d0950bfcb101ea82dd52b4ebf3707"
+  },
+  {
+    "file": "ROBOTO-OFL.txt",
+    "source": "https://github.com/google/fonts/blob/main/ofl/roboto/OFL.txt",
+    "git_blob_sha": "9c48e05a24fa2267e207ecf17560291b5621c197"
+  },
+  {
+    "file": "BOOTSTRAP-3.3.6-MIT.txt",
+    "source": "https://github.com/twbs/bootstrap/blob/v3.3.6/LICENSE",
+    "git_blob_sha": "f4c52d6a4b3e13836fc2b516b962b5365a1d19c8"
+  },
+  {
+    "file": "JQUERY-1.12.0-LICENSE.txt",
+    "source": "https://github.com/jquery/jquery/blob/1.12.0/LICENSE.txt",
+    "git_blob_sha": "5312a4c864d220d496ae0b6fd11834a08396fb89"
+  }
+]

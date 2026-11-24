@@ -1,0 +1,2864 @@
+{
+  "metadata": {
+    "verified_date": "2026-11-05",
+    "author_orcid": "0000-0002-0499-7253",
+    "requested_scholar_profile": "https://scholar.google.com/citations?user=BfaXDOAAAAAJ&hl=ko",
+    "version_merges": [
+      {
+        "from_doi": "10.48550/arxiv.2102.07326",
+        "to_doi": "10.1109/access.2021.3098807",
+        "evidence": "https://arxiv.org/abs/2102.07326",
+        "reason": "arXiv citation_doi explicitly identifies the published journal article."
+      }
+    ],
+    "version_grouping": [
+      {
+        "preferred_id": "mppi-ipddp",
+        "removed_id": "paper-206140148",
+        "preprint": "https://arxiv.org/abs/2208.02439",
+        "basis": "The baseline verified record already associates these identifiers. All four authors match in order, titles match apart from an article, abstracts describe the same three-step method, and the arXiv abstract identifies the same official i-ASL/mppi-ipddp code repository."
+      },
+      {
+        "preferred_id": "relative-pose",
+        "removed_id": "paper-206140198",
+        "preprint": "https://arxiv.org/abs/2401.15313",
+        "basis": "The baseline verified record already associates these identifiers. Titles and subject matter match. The official project repository explicitly links the IEEE article and describes the same study."
+      },
+      {
+        "preferred_id": "path-integral-review",
+        "removed_id": "paper-206140181",
+        "preprint": "https://arxiv.org/abs/2309.12566",
+        "basis": "The baseline verified record already associates these identifiers. Exact title apart from capitalization and exact four-author order match. ArXiv abstract links the official overview code repository."
+      }
+    ],
+    "issue_year_corrections": [
+      {
+        "id": "paper-206140166",
+        "online_year": 2016,
+        "issue_year": 2017,
+        "doi": "10.1002/oca.2241"
+      },
+      {
+        "id": "paper-206140167",
+        "online_year": 2013,
+        "issue_year": 2014,
+        "doi": "10.1007/s10957-013-0412-7"
+      },
+      {
+        "id": "paper-206140169",
+        "online_year": 2013,
+        "issue_year": 2014,
+        "doi": "10.1002/rnc.3003"
+      }
+    ],
+    "cv_comparison": {
+      "cv_date": "June 2026",
+      "active_entries": 53,
+      "completed_entries_mapped": 42,
+      "pending_manuscripts_not_represented_as_published": 11,
+      "title_and_author_preference": "Final publisher or official conference record when available; CV used for missing presentations.",
+      "mapping": [
+        {
+          "cv_id": "cv-journal-01",
+          "record_id": "mppi-ipddp",
+          "title_match_score": 0.738,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-02",
+          "record_id": "relative-pose",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-11",
+          "record_id": "path-integral-review",
+          "title_match_score": 1.0,
+          "cv_year": 2024,
+          "bibliography_year": 2024
+        },
+        {
+          "cv_id": "cv-journal-12",
+          "record_id": "paper-206140192",
+          "title_match_score": 0.975,
+          "cv_year": 2023,
+          "bibliography_year": 2023
+        },
+        {
+          "cv_id": "cv-journal-13",
+          "record_id": "gp-battery-estimation",
+          "title_match_score": 0.693,
+          "cv_year": 2023,
+          "bibliography_year": 2023
+        },
+        {
+          "cv_id": "cv-journal-14",
+          "record_id": "paper-206140190",
+          "title_match_score": 1.0,
+          "cv_year": 2023,
+          "bibliography_year": 2023
+        },
+        {
+          "cv_id": "cv-journal-15",
+          "record_id": "paper-206140195",
+          "title_match_score": 1.0,
+          "cv_year": 2022,
+          "bibliography_year": 2022
+        },
+        {
+          "cv_id": "cv-journal-16",
+          "record_id": "paper-206140193",
+          "title_match_score": 1.0,
+          "cv_year": 2022,
+          "bibliography_year": 2022
+        },
+        {
+          "cv_id": "cv-journal-17",
+          "record_id": "paper-206140109",
+          "title_match_score": 1.0,
+          "cv_year": 2021,
+          "bibliography_year": 2021
+        },
+        {
+          "cv_id": "cv-journal-18",
+          "record_id": "paper-206140185",
+          "title_match_score": 1.0,
+          "cv_year": 2021,
+          "bibliography_year": 2021
+        },
+        {
+          "cv_id": "cv-journal-19",
+          "record_id": "paper-206140120",
+          "title_match_score": 1.0,
+          "cv_year": 2020,
+          "bibliography_year": 2020
+        },
+        {
+          "cv_id": "cv-journal-20",
+          "record_id": "paper-206140184",
+          "title_match_score": 1.0,
+          "cv_year": 2020,
+          "bibliography_year": 2020
+        },
+        {
+          "cv_id": "cv-journal-21",
+          "record_id": "paper-206140188",
+          "title_match_score": 1.0,
+          "cv_year": 2019,
+          "bibliography_year": 2019
+        },
+        {
+          "cv_id": "cv-journal-22",
+          "record_id": "paper-206140142",
+          "title_match_score": 1.0,
+          "cv_year": 2019,
+          "bibliography_year": 2019
+        },
+        {
+          "cv_id": "cv-journal-23",
+          "record_id": "paper-206140135",
+          "title_match_score": 1.0,
+          "cv_year": 2018,
+          "bibliography_year": 2018
+        },
+        {
+          "cv_id": "cv-journal-24",
+          "record_id": "paper-206140146",
+          "title_match_score": 1.0,
+          "cv_year": 2017,
+          "bibliography_year": 2017
+        },
+        {
+          "cv_id": "cv-journal-25",
+          "record_id": "paper-206140166",
+          "title_match_score": 0.917,
+          "cv_year": 2017,
+          "bibliography_year": 2017
+        },
+        {
+          "cv_id": "cv-journal-26",
+          "record_id": "paper-206140203",
+          "title_match_score": 0.935,
+          "cv_year": 2016,
+          "bibliography_year": 2016
+        },
+        {
+          "cv_id": "cv-journal-27",
+          "record_id": "paper-206140187",
+          "title_match_score": 1.0,
+          "cv_year": 2016,
+          "bibliography_year": 2016
+        },
+        {
+          "cv_id": "cv-journal-28",
+          "record_id": "paper-206140171",
+          "title_match_score": 0.892,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-29",
+          "record_id": "paper-206140201",
+          "title_match_score": 1.0,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-30",
+          "record_id": "paper-206140121",
+          "title_match_score": 1.0,
+          "cv_year": 2013,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-31",
+          "record_id": "paper-206140159",
+          "title_match_score": 0.882,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-32",
+          "record_id": "paper-206140169",
+          "title_match_score": 1.0,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-33",
+          "record_id": "paper-206140167",
+          "title_match_score": 1.0,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-34",
+          "record_id": "paper-206140200",
+          "title_match_score": 0.929,
+          "cv_year": 2014,
+          "bibliography_year": 2014
+        },
+        {
+          "cv_id": "cv-journal-35",
+          "record_id": "paper-206140140",
+          "title_match_score": 0.904,
+          "cv_year": 2013,
+          "bibliography_year": 2013
+        },
+        {
+          "cv_id": "cv-journal-36",
+          "record_id": "paper-206140178",
+          "title_match_score": 0.989,
+          "cv_year": 2013,
+          "bibliography_year": 2013
+        },
+        {
+          "cv_id": "cv-journal-37",
+          "record_id": "paper-206140113",
+          "title_match_score": 0.943,
+          "cv_year": 2012,
+          "bibliography_year": 2012
+        },
+        {
+          "cv_id": "cv-journal-38",
+          "record_id": "paper-206140202",
+          "title_match_score": 1.0,
+          "cv_year": 2023,
+          "bibliography_year": 2023
+        },
+        {
+          "cv_id": "cv-journal-39",
+          "record_id": "paper-206140156",
+          "title_match_score": 1.0,
+          "cv_year": 2023,
+          "bibliography_year": 2023
+        },
+        {
+          "cv_id": "cv-journal-40",
+          "record_id": "paper-206140105",
+          "title_match_score": 1.0,
+          "cv_year": 2023,
+          "bibliography_year": 2022
+        },
+        {
+          "cv_id": "cv-journal-41",
+          "record_id": "paper-196287654",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-42",
+          "record_id": "paper-206140127",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-43",
+          "record_id": "paper-206140180",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-44",
+          "record_id": "paper-206140129",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-journal-45",
+          "record_id": "paper-206140199",
+          "title_match_score": 1.0,
+          "cv_year": 2024,
+          "bibliography_year": 2024
+        },
+        {
+          "cv_id": "cv-conference-04",
+          "record_id": "doi-51b7c31ff9b5",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-conference-05",
+          "record_id": "gpu-mppi-smoothing-iccas-2025",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-conference-06",
+          "record_id": "doi-c1320161753d",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-conference-07",
+          "record_id": "transformerhympc-iccas-2025",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        },
+        {
+          "cv_id": "cv-conference-08",
+          "record_id": "paper-206140144",
+          "title_match_score": 1.0,
+          "cv_year": 2025,
+          "bibliography_year": 2025
+        }
+      ]
+    },
+    "displayed_count": 80,
+    "displayed_types": {
+      "Journal": 43,
+      "Preprint": 6,
+      "Conference": 29,
+      "Book chapter": 1,
+      "Magazine": 1
+    },
+    "scholar_access": "Google Scholar returned an unusual-traffic block. No complete Scholar import or citation metrics claimed.",
+    "upstream_recovery_coverage": {
+      "orcid_public_work_groups": 77,
+      "additional_publications_outside_orcid": 4,
+      "combined_before_version_merge": 81,
+      "explicit_version_merges": 1,
+      "recommended_publication_rows": 80,
+      "types": {
+        "Journal": 43,
+        "Preprint": 9,
+        "Conference": 27,
+        "Book chapter": 1
+      },
+      "records_without_doi": [
+        {
+          "id": "paper-206140095",
+          "title": "Regularized maximum likelihood estimation of sparse stochastic monomolecular biochemical reaction networks"
+        },
+        {
+          "id": "paper-206140097",
+          "title": "Fast moving horizon estimation for a distributed parameter system"
+        },
+        {
+          "id": "paper-206140099",
+          "title": "Limiting behavior of L1 adaptive controllers"
+        }
+      ],
+      "records_without_authors": [],
+      "year_range": [
+        2010,
+        2026
+      ],
+      "limit": "Google Scholar profile was not accessible. These are verified ORCID and publisher/arXiv records, not a guaranteed complete or one-to-one Scholar export. Similar-titled preprints/conference extensions were retained unless a primary explicit DOI cross-reference proves equivalence. No citation counts copied.",
+      "stage": "Historical collection before CV additions, three extra version groupings, and issue-year reconciliation."
+    },
+    "updated_date": "2026-11-19",
+    "repository_reconciliation": {
+      "date": "2026-11-19",
+      "commit": "3efc90a357dffcf18b4ea07809c5ab0f7510ab9f",
+      "november_snapshot_count": 79,
+      "repository_count": 24,
+      "matching_records": 23,
+      "added_ids": [
+        "2021-kim-decentralized-lq"
+      ]
+    }
+  },
+  "records": [
+    {
+      "title": "Effects of SO(3) Action Representations on Observation-based Imitation Learning for Robotic Manipulation",
+      "authors": "Seungwon Nam, Kwang-Ki Kim",
+      "authors_list": [
+        "Seungwon Nam",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2026,
+      "date_parts": [
+        2026,
+        8,
+        31
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2026.26.0147",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0147",
+      "volume": "32",
+      "issue": "8",
+      "pages": "1052-1059",
+      "provenance": [
+        "https://api.crossref.org/works/10.5302/j.icros.2026.26.0147"
+      ],
+      "verification": "Publisher-deposited Crossref metadata; author identity corroborated with Inha affiliation or KCI and lab coauthors.",
+      "id": "doi-7a13ae386da0"
+    },
+    {
+      "id": "paper-228002759",
+      "title": "Distributed Factor Graph Optimization with Ensemble Kalman Inversion for Multi-Robot Path Planning",
+      "authors": "GeonWoo Kim, Kwang-Ki Kim",
+      "authors_list": [
+        "GeonWoo Kim",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2026,
+      "date_parts": [
+        2026,
+        8,
+        31
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Korea Robotics Society",
+      "doi": "10.7746/jkros.2026.21.3.388",
+      "url": "https://doi.org/10.7746/jkros.2026.21.3.388",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/228002759",
+        "https://api.crossref.org/works/10.7746/jkros.2026.21.3.388"
+      ],
+      "orcid_put_code": 228002759,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "21",
+      "issue": "3",
+      "pages": "388-397"
+    },
+    {
+      "title": "Residual Vibration Characterization and Input Shaping for Collaborative Robots Under Single-joint Motion",
+      "authors": "Jae Heo, Kyung-Gon Noh, Kwang-Ki Kim",
+      "authors_list": [
+        "Jae Heo",
+        "Kyung-Gon Noh",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2026,
+      "date_parts": [
+        2026,
+        7,
+        31
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2026.26.0106",
+      "url": "https://doi.org/10.5302/j.icros.2026.26.0106",
+      "volume": "32",
+      "issue": "7",
+      "pages": "941-951",
+      "provenance": [
+        "https://api.crossref.org/works/10.5302/j.icros.2026.26.0106"
+      ],
+      "verification": "Publisher-deposited Crossref metadata; author identity corroborated with Inha affiliation or KCI and lab coauthors.",
+      "id": "doi-08931c9e2482"
+    },
+    {
+      "id": "soc-quadrotor-landing",
+      "title": "Attitude-aware Second-order Conic-constrained Trajectory Optimization for 6-DOF Quadrotor Precision Landing",
+      "authors": "Sung-Jin Noh, JunGee Hong, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Sung-Jin Noh",
+        "JunGee Hong",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2026,
+      "date_parts": [
+        2026,
+        2,
+        28
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Korea Robotics Society",
+      "doi": "10.7746/jkros.2026.21.1.100",
+      "url": "https://doi.org/10.7746/jkros.2026.21.1.100",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/209854563",
+        "https://api.crossref.org/works/10.7746/jkros.2026.21.1.100",
+        "https://jkros.org/xml/48725/48725.pdf"
+      ],
+      "orcid_put_code": 209854563,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "21",
+      "issue": "1",
+      "pages": "100-108",
+      "topic": "Aerial robotics; constrained trajectory optimization"
+    },
+    {
+      "id": "paper-206308159",
+      "title": "evSSCP: Real-time Simultaneous Speed and Charging Planner for Connected Electric Vehicles",
+      "authors": "Minwoo Gwon, Jiwon Kim, Seungjun Yoo, Kwangki Kim",
+      "authors_list": [
+        "Minwoo Gwon",
+        "Jiwon Kim",
+        "Seungjun Yoo",
+        "Kwangki Kim"
+      ],
+      "year": 2026,
+      "date_parts": [
+        2026
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "SSRN",
+      "doi": "10.2139/ssrn.6278612",
+      "url": "https://doi.org/10.2139/ssrn.6278612",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206308159",
+        "https://api.crossref.org/works/10.2139/ssrn.6278612"
+      ],
+      "orcid_put_code": 206308159,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "paper-206140129",
+      "title": "UWB/IMU Sensor Fusion for 6D Pose Estimation: An Experimental Comparison of Tightly and Loosely Coupled Kalman Filtering Methods",
+      "authors": "Yong-Hee Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Yong-Hee Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        12,
+        31
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2025.25.0252",
+      "url": "https://doi.org/10.5302/j.icros.2025.25.0252",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140129",
+        "https://api.crossref.org/works/10.5302/j.icros.2025.25.0252"
+      ],
+      "orcid_put_code": 206140129,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "31",
+      "issue": "12",
+      "pages": "1456-1463",
+      "cv_entries": [
+        "cv-journal-44"
+      ]
+    },
+    {
+      "id": "paper-206140180",
+      "title": "LPV-MPC for Lateral Stability Enhancement of Four-wheel Steering Vehicles With Real-time Embedded PiLS Validation",
+      "authors": "Sung-Jun Park, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Sung-Jun Park",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        12,
+        31
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2025.25.0234",
+      "url": "https://doi.org/10.5302/j.icros.2025.25.0234",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140180",
+        "https://api.crossref.org/works/10.5302/j.icros.2025.25.0234"
+      ],
+      "orcid_put_code": 206140180,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "31",
+      "issue": "12",
+      "pages": "1369-1377",
+      "cv_entries": [
+        "cv-journal-43"
+      ]
+    },
+    {
+      "title": "Smart Integrated Trip Planner for Optimized Driving and Charging of Connected Electric Vehicles",
+      "authors": "Minwoo Gwon, Jiwon Kim, Seungjun Yoo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Minwoo Gwon",
+        "Jiwon Kim",
+        "Seungjun Yoo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        11,
+        18
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "doi": "10.1109/itsc60802.2025.11423165",
+      "url": "https://doi.org/10.1109/itsc60802.2025.11423165",
+      "volume": null,
+      "issue": null,
+      "pages": "3668-3673",
+      "provenance": [
+        "https://api.crossref.org/works/10.1109/itsc60802.2025.11423165"
+      ],
+      "verification": "Publisher-deposited Crossref metadata; author identity corroborated with Inha affiliation or KCI and lab coauthors.",
+      "id": "doi-51b7c31ff9b5",
+      "cv_entries": [
+        "cv-conference-04"
+      ]
+    },
+    {
+      "id": "doi-c1320161753d",
+      "title": "PiLS of Embedded Hybrid MPC for Fighter Aircraft Attack Angle Control Using QP-Based Approximation of MINLP",
+      "authors": "Ji-Won Kim, Sung-Jun Park, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Ji-Won Kim",
+        "Sung-Jun Park",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        11,
+        4
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2025 25th International Conference on Control, Automation and Systems (ICCAS)",
+      "doi": "10.23919/iccas66577.2025.11301088",
+      "url": "https://doi.org/10.23919/iccas66577.2025.11301088",
+      "pages": "1195-1200",
+      "provenance": [
+        "https://api.crossref.org/works/10.23919/iccas66577.2025.11301088"
+      ],
+      "identity_evidence": "Publisher-deposited author name Kwang-Ki K. Kim with Inha University affiliation.",
+      "cv_entries": [
+        "cv-conference-06"
+      ]
+    },
+    {
+      "id": "paper-206140144",
+      "title": "Real-Time Optimal Energy Management of Dual-Motor Battery Electric Vehicles Using MPC on an Automotive-grade Microcontroller",
+      "authors": "Ji-Won Kim, Min-Woo Gwon, Jae Heo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Ji-Won Kim",
+        "Min-Woo Gwon",
+        "Jae Heo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        8,
+        17
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)",
+      "doi": "10.1109/case58245.2025.11164068",
+      "url": "https://doi.org/10.1109/case58245.2025.11164068",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140144",
+        "https://api.crossref.org/works/10.1109/case58245.2025.11164068"
+      ],
+      "orcid_put_code": 206140144,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "1915-1920",
+      "cv_entries": [
+        "cv-conference-08"
+      ]
+    },
+    {
+      "id": "relative-pose",
+      "title": "Multi-Robot Relative Pose Estimation in SE(2) With Observability Analysis: A Comparison of Extended Kalman Filtering and Robust Pose Graph Optimization",
+      "authors": "Gihun Shin, Hyunjae Sim, Seungwon Nam, Yonghee Kim, Jae Heo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Gihun Shin",
+        "Hyunjae Sim",
+        "Seungwon Nam",
+        "Yonghee Kim",
+        "Jae Heo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        8
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "doi": "10.1109/tiv.2024.3478290",
+      "url": "https://ieeexplore.ieee.org/document/10713843",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/194914028",
+        "https://api.crossref.org/works/10.1109/tiv.2024.3478290",
+        "https://api.crossref.org/works/10.1109/TIV.2024.3478290",
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140198",
+        "https://arxiv.org/abs/2401.15313",
+        "https://ieeexplore.ieee.org/document/10713843",
+        "https://github.com/i-ASL/MRS_RPESTM"
+      ],
+      "orcid_put_code": 194914028,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "10",
+      "issue": "8",
+      "pages": "4293-4315",
+      "code": "https://github.com/i-ASL/MRS_RPESTM",
+      "preprint": "https://arxiv.org/abs/2401.15313",
+      "topic": "State estimation; multi-robot systems",
+      "versions": [
+        {
+          "type": "Preprint",
+          "year": 2024,
+          "title": "Multi-Robot Relative Pose Estimation in SE(2) with Observability Analysis: A Comparison of Extended Kalman Filtering and Robust Pose Graph Optimization",
+          "url": "https://arxiv.org/abs/2401.15313"
+        }
+      ],
+      "cv_entries": [
+        "cv-journal-02"
+      ]
+    },
+    {
+      "id": "mppi-ipddp",
+      "title": "MPPI-IPDDP: A Hybrid Method of Collision-Free Smooth Trajectory Generation for Autonomous Robots",
+      "authors": "Min-Gyeom Kim, Minchan Jung, JunGee Hong, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Min-Gyeom Kim",
+        "Minchan Jung",
+        "JunGee Hong",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        7
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "doi": "10.1109/tii.2024.3507940",
+      "url": "https://ieeexplore.ieee.org/document/10960717/",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/182010194",
+        "https://api.crossref.org/works/10.1109/tii.2024.3507940",
+        "https://api.crossref.org/works/10.1109/TII.2024.3507940",
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140148",
+        "https://arxiv.org/abs/2208.02439",
+        "https://ieeexplore.ieee.org/document/10960717/",
+        "https://github.com/i-ASL/mppi-ipddp"
+      ],
+      "orcid_put_code": 182010194,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "21",
+      "issue": "7",
+      "pages": "5037-5046",
+      "code": "https://github.com/i-ASL/mppi-ipddp",
+      "preprint": "https://arxiv.org/abs/2208.02439",
+      "topic": "Motion planning; optimal control",
+      "versions": [
+        {
+          "type": "Preprint",
+          "year": 2022,
+          "title": "MPPI-IPDDP: Hybrid Method of Collision-Free Smooth Trajectory Generation for Autonomous Robots",
+          "url": "https://arxiv.org/abs/2208.02439"
+        }
+      ],
+      "cv_entries": [
+        "cv-journal-01"
+      ]
+    },
+    {
+      "id": "paper-206140127",
+      "title": "Satellite Relative Pose Estimation via Transfer Learning and Environment-adaptive Conditional Features",
+      "authors": "Seungwon Nam, Kwang-Ki Kim",
+      "authors_list": [
+        "Seungwon Nam",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        6,
+        30
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2025.25.0058",
+      "url": "https://doi.org/10.5302/j.icros.2025.25.0058",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140127",
+        "https://api.crossref.org/works/10.5302/j.icros.2025.25.0058"
+      ],
+      "orcid_put_code": 206140127,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "31",
+      "issue": "6",
+      "pages": "600-607",
+      "cv_entries": [
+        "cv-journal-42"
+      ]
+    },
+    {
+      "id": "paper-196287654",
+      "title": "Supervised Learning for Real-time Model Predictive Control Leveraging Multi-parametric Mixed Integer Quadratic Programming",
+      "authors": "Seungjun Yoo, Minwoo Gwon, Kwang-Ki Kim",
+      "authors_list": [
+        "Seungjun Yoo",
+        "Minwoo Gwon",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2025,
+      "date_parts": [
+        2025,
+        2,
+        1
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2025.24.0267",
+      "url": "https://doi.org/10.5302/j.icros.2025.24.0267",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/196287654",
+        "https://api.crossref.org/works/10.5302/j.icros.2025.24.0267"
+      ],
+      "orcid_put_code": 196287654,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "31",
+      "issue": "2",
+      "pages": "98-105",
+      "cv_entries": [
+        "cv-journal-41"
+      ]
+    },
+    {
+      "id": "paper-206140199",
+      "title": "Visual Navigation in Unstructured Environments and the Development of a Multi-purpose Mobile Robot Platform",
+      "authors": "Hyun-Jae Sim, Joshua Kim, JunGee Hong, Seung-Won Nam, Yong-Hee Kim, Jae Heo, Hwan-Cheol Hwang, Kwang-Ki Kim",
+      "authors_list": [
+        "Hyun-Jae Sim",
+        "Joshua Kim",
+        "JunGee Hong",
+        "Seung-Won Nam",
+        "Yong-Hee Kim",
+        "Jae Heo",
+        "Hwan-Cheol Hwang",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2024,
+      "date_parts": [
+        2024,
+        9,
+        30
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2024.24.0101",
+      "url": "https://doi.org/10.5302/j.icros.2024.24.0101",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140199",
+        "https://api.crossref.org/works/10.5302/j.icros.2024.24.0101"
+      ],
+      "orcid_put_code": 206140199,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "30",
+      "issue": "9",
+      "pages": "913-923",
+      "cv_entries": [
+        "cv-journal-45"
+      ]
+    },
+    {
+      "id": "paper-206140163",
+      "title": "evS2CP: Real-time Simultaneous Speed and Charging Planner for Connected Electric Vehicles",
+      "authors": "Minwoo Gwon, Jiwon Kim, Seungjun Yoo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Minwoo Gwon",
+        "Jiwon Kim",
+        "Seungjun Yoo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2024,
+      "date_parts": [
+        2024
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "arXiv",
+      "doi": "10.48550/arxiv.2412.09109",
+      "url": "https://arxiv.org/abs/2412.09109",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140163",
+        "https://arxiv.org/abs/2412.09109"
+      ],
+      "orcid_put_code": 206140163,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "path-integral-review",
+      "title": "Recent advances in path integral control for trajectory optimization: An overview in theoretical and algorithmic perspectives",
+      "authors": "Muhammad Kazim, JunGee Hong, Min-Gyeom Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Muhammad Kazim",
+        "JunGee Hong",
+        "Min-Gyeom Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2024,
+      "date_parts": [
+        2024
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Annual Reviews in Control",
+      "doi": "10.1016/j.arcontrol.2023.100931",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1367578823000950",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140175",
+        "https://api.crossref.org/works/10.1016/j.arcontrol.2023.100931",
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140181",
+        "https://arxiv.org/abs/2309.12566",
+        "https://www.sciencedirect.com/science/article/pii/S1367578823000950",
+        "https://github.com/i-ASL/An-Overview-on-Recent-Advances-in-Path-Integral-Control"
+      ],
+      "orcid_put_code": 206140175,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "57",
+      "pages": "100931",
+      "code": "https://github.com/i-ASL/An-Overview-on-Recent-Advances-in-Path-Integral-Control",
+      "preprint": "https://arxiv.org/abs/2309.12566",
+      "topic": "Sampling-based optimal control",
+      "article": "100931",
+      "versions": [
+        {
+          "type": "Preprint",
+          "year": 2023,
+          "title": "Recent Advances in Path Integral Control for Trajectory Optimization: An Overview in Theoretical and Algorithmic Perspectives",
+          "url": "https://arxiv.org/abs/2309.12566"
+        }
+      ],
+      "cv_entries": [
+        "cv-journal-11"
+      ]
+    },
+    {
+      "id": "paper-206140131",
+      "title": "BiC-MPPI: Goal-Pursuing, Sampling-Based Bidirectional Rollout Clustering Path Integral for Trajectory Optimization",
+      "authors": "Minchan Jung, Kwangki Kim",
+      "authors_list": [
+        "Minchan Jung",
+        "Kwangki Kim"
+      ],
+      "year": 2024,
+      "date_parts": [
+        2024
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "arXiv",
+      "doi": "10.48550/arxiv.2410.06493",
+      "url": "https://arxiv.org/abs/2410.06493",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140131",
+        "https://arxiv.org/abs/2410.06493"
+      ],
+      "orcid_put_code": 206140131,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "code": "https://github.com/i-ASL/BiC-MPPI"
+    },
+    {
+      "id": "paper-206140161",
+      "title": "Aggressive Trajectory Tracking for Nano Quadrotors Using Embedded Nonlinear Model Predictive Control",
+      "authors": "Muhammad Kazim, Hyunjae Sim, Gihun Shin, Hwancheol Hwang, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Muhammad Kazim",
+        "Hyunjae Sim",
+        "Gihun Shin",
+        "Hwancheol Hwang",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2024,
+      "date_parts": [
+        2024
+      ],
+      "status": "Published",
+      "type": "Book chapter",
+      "venue": "Lecture Notes in Networks and Systems",
+      "doi": "10.1007/978-3-031-44851-5_24",
+      "url": "https://doi.org/10.1007/978-3-031-44851-5_24",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140161",
+        "https://api.crossref.org/works/10.1007/978-3-031-44851-5_24"
+      ],
+      "orcid_put_code": 206140161,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "317-332"
+    },
+    {
+      "id": "gp-battery-estimation",
+      "title": "Battery state-of-charge estimation using data-driven Gaussian process Kalman filters",
+      "authors": "Kwang-Jae Lee, Won-Hyung Lee, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Kwang-Jae Lee",
+        "Won-Hyung Lee",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023,
+        11
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Energy Storage",
+      "doi": "10.1016/j.est.2023.108392",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352152X23017899",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140191",
+        "https://api.crossref.org/works/10.1016/j.est.2023.108392"
+      ],
+      "orcid_put_code": 206140191,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "72",
+      "pages": "108392",
+      "topic": "Gaussian processes; state estimation; energy systems",
+      "article": "108392",
+      "cv_entries": [
+        "cv-journal-13"
+      ]
+    },
+    {
+      "id": "paper-206140202",
+      "title": "Vision-based Markerless Robot-to-robot Relative Pose Estimation Using RGB-D Data",
+      "authors": "Joo-Hyun Kim, Kwang-Ki Kim",
+      "authors_list": [
+        "Joo-Hyun Kim",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023,
+        6,
+        30
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Institute of Control, Robotics and Systems",
+      "doi": "10.5302/j.icros.2023.23.0030",
+      "url": "https://doi.org/10.5302/j.icros.2023.23.0030",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140202",
+        "https://api.crossref.org/works/10.5302/j.icros.2023.23.0030"
+      ],
+      "orcid_put_code": 206140202,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "29",
+      "issue": "6",
+      "pages": "495-503",
+      "cv_entries": [
+        "cv-journal-38"
+      ]
+    },
+    {
+      "id": "paper-206140156",
+      "title": "Model Predictive Control for Speed and Charge Planning of Electric Vehicles in Minimizing Trip-time and Energy-consumption",
+      "authors": "Sunwoo Kim, Wonhyung Lee, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Sunwoo Kim",
+        "Wonhyung Lee",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023,
+        1,
+        1
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Transaction of the Korean Society of Automotive Engineers",
+      "doi": "10.7467/ksae.2023.31.1.019",
+      "url": "https://doi.org/10.7467/ksae.2023.31.1.019",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140156",
+        "https://api.crossref.org/works/10.7467/ksae.2023.31.1.019"
+      ],
+      "orcid_put_code": 206140156,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "31",
+      "issue": "1",
+      "pages": "19-27",
+      "cv_entries": [
+        "cv-journal-39"
+      ]
+    },
+    {
+      "id": "paper-206140192",
+      "title": "Outlier-Robust Extended Kalman Filter for State-of-Charge Estimation of Lithium-Ion Batteries",
+      "authors": "Won Hyung Lee, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Won Hyung Lee",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2023.3336274",
+      "url": "https://doi.org/10.1109/access.2023.3336274",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140192",
+        "https://api.crossref.org/works/10.1109/access.2023.3336274"
+      ],
+      "orcid_put_code": 206140192,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "11",
+      "pages": "132766-132779",
+      "cv_entries": [
+        "cv-journal-12"
+      ]
+    },
+    {
+      "id": "paper-206140190",
+      "title": "Model Predictive Control for Energy-Efficient Yaw-Stabilizing Torque Vectoring in Electric Vehicles With Four In-Wheel Motors",
+      "authors": "Sang Hyuk Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Sang Hyuk Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2023.3266330",
+      "url": "https://doi.org/10.1109/access.2023.3266330",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140190",
+        "https://api.crossref.org/works/10.1109/access.2023.3266330"
+      ],
+      "orcid_put_code": 206140190,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "11",
+      "pages": "37665-37680",
+      "cv_entries": [
+        "cv-journal-14"
+      ]
+    },
+    {
+      "id": "paper-206140126",
+      "title": "Learning-based Ecological Adaptive Cruise Control of Autonomous Electric Vehicles: A Comparison of ADP, DQN and DDPG Approaches",
+      "authors": "Sunwoo Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Sunwoo Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "arXiv",
+      "doi": "10.48550/arxiv.2312.01004",
+      "url": "https://arxiv.org/abs/2312.01004",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140126",
+        "https://arxiv.org/abs/2312.01004"
+      ],
+      "orcid_put_code": 206140126,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "paper-206140157",
+      "title": "Aggressive Trajectory Tracking for Nano Quadrotors Using Embedded Nonlinear Model Predictive Control",
+      "authors": "Muhammad Kazim, Hyunjae Sim, Gihun Shin, Hwancheol Hwang, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Muhammad Kazim",
+        "Hyunjae Sim",
+        "Gihun Shin",
+        "Hwancheol Hwang",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "arXiv",
+      "doi": "10.48550/arxiv.2312.01015",
+      "url": "https://arxiv.org/abs/2312.01015",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140157",
+        "https://arxiv.org/abs/2312.01015"
+      ],
+      "orcid_put_code": 206140157,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "paper-206140165",
+      "title": "Adaptive Goal Management System of Robots",
+      "authors": "Muhammad Kazim, Michael Muldoon, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Muhammad Kazim",
+        "Michael Muldoon",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2023,
+      "date_parts": [
+        2023
+      ],
+      "status": "Preprint",
+      "type": "Preprint",
+      "venue": "arXiv",
+      "doi": "10.48550/arxiv.2303.11535",
+      "url": "https://arxiv.org/abs/2303.11535",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140165",
+        "https://arxiv.org/abs/2303.11535"
+      ],
+      "orcid_put_code": 206140165,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "paper-206140105",
+      "title": "An Extension of Interior Point Differential Dynamic Programming for Optimal Control Problems with Second-Order Conic Constraints",
+      "authors": "Min-Gyeom Kim, Kwang-Ki Kim",
+      "authors_list": [
+        "Min-Gyeom Kim",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2022,
+      "date_parts": [
+        2022,
+        11,
+        30
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "The transactions of The Korean Institute of Electrical Engineers",
+      "doi": "10.5370/kiee.2022.71.11.1666",
+      "url": "https://doi.org/10.5370/kiee.2022.71.11.1666",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140105",
+        "https://api.crossref.org/works/10.5370/kiee.2022.71.11.1666"
+      ],
+      "orcid_put_code": 206140105,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "71",
+      "issue": "11",
+      "pages": "1666-1672",
+      "cv_entries": [
+        "cv-journal-40"
+      ]
+    },
+    {
+      "id": "icp-correspondence",
+      "title": "A Fast Correspondence Matching for Iterative Closest Point Algorithm",
+      "authors": "Gunhee Shin, Jaehee Choi, Kwangki Kim",
+      "authors_list": [
+        "Gunhee Shin",
+        "Jaehee Choi",
+        "Kwangki Kim"
+      ],
+      "year": 2022,
+      "date_parts": [
+        2022,
+        9,
+        1
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Korea Robotics Society",
+      "doi": "10.7746/jkros.2022.17.3.373",
+      "url": "https://doi.org/10.7746/jkros.2022.17.3.373",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/120958350",
+        "https://api.crossref.org/works/10.7746/jkros.2022.17.3.373",
+        "https://jkros.org/_common/do.php?a=full&aidx=33776&b=33&bidx=3021"
+      ],
+      "orcid_put_code": 120958350,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "17",
+      "issue": "3",
+      "pages": "373-380",
+      "topic": "Localization; point-cloud registration"
+    },
+    {
+      "id": "paper-206140193",
+      "title": "Service-Oriented Real-Time Energy-Optimal Regenerative Braking Strategy for Connected and Autonomous Electrified Vehicles",
+      "authors": "Dohee Kim, Jeong Soo Eo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Dohee Kim",
+        "Jeong Soo Eo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2022,
+      "date_parts": [
+        2022,
+        8
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "10.1109/tits.2021.3099812",
+      "url": "https://doi.org/10.1109/tits.2021.3099812",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140193",
+        "https://api.crossref.org/works/10.1109/tits.2021.3099812"
+      ],
+      "orcid_put_code": 206140193,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "23",
+      "issue": "8",
+      "pages": "11098-11115",
+      "cv_entries": [
+        "cv-journal-16"
+      ]
+    },
+    {
+      "id": "paper-206140195",
+      "title": "Gaussian Process Approximate Dynamic Programming for Energy-Optimal Supervisory Control of Parallel Hybrid Electric Vehicles",
+      "authors": "Jin Woo Bae, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Jin Woo Bae",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2022,
+      "date_parts": [
+        2022,
+        8
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": "10.1109/tvt.2022.3178146",
+      "url": "https://doi.org/10.1109/tvt.2022.3178146",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140195",
+        "https://api.crossref.org/works/10.1109/tvt.2022.3178146"
+      ],
+      "orcid_put_code": 206140195,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "71",
+      "issue": "8",
+      "pages": "8367-8380",
+      "cv_entries": [
+        "cv-journal-15"
+      ]
+    },
+    {
+      "id": "paper-206140109",
+      "title": "Parameterized Energy-Optimal Regenerative Braking Strategy for Connected and Autonomous Electrified Vehicles: A Real-Time Dynamic Programming Approach",
+      "authors": "Dohee Kim, Jeong Soo Eo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Dohee Kim",
+        "Jeong Soo Eo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2021,
+      "date_parts": [
+        2021
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2021.3098807",
+      "url": "https://doi.org/10.1109/access.2021.3098807",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140109",
+        "https://api.crossref.org/works/10.1109/access.2021.3098807",
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140153",
+        "https://arxiv.org/abs/2102.07326"
+      ],
+      "orcid_put_code": 206140109,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "9",
+      "pages": "103167-103183",
+      "preprint": "https://arxiv.org/abs/2102.07326",
+      "alternate_identifiers": [
+        "10.48550/arxiv.2102.07326"
+      ],
+      "cv_entries": [
+        "cv-journal-17"
+      ]
+    },
+    {
+      "id": "paper-206140185",
+      "title": "Distributed Moving Horizon Estimation via Operator Splitting for Automated Robust Power System State Estimation",
+      "authors": "Jinsung Kim, Ji-Han Kang, Jinwoo Bae, Wonhyung Lee, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Jinsung Kim",
+        "Ji-Han Kang",
+        "Jinwoo Bae",
+        "Wonhyung Lee",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2021,
+      "date_parts": [
+        2021
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2021.3091706",
+      "url": "https://doi.org/10.1109/access.2021.3091706",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140185",
+        "https://api.crossref.org/works/10.1109/access.2021.3091706"
+      ],
+      "orcid_put_code": 206140185,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "9",
+      "pages": "90428-90440",
+      "cv_entries": [
+        "cv-journal-18"
+      ]
+    },
+    {
+      "id": "paper-206140196",
+      "title": "Dynamic programming for scalable just-in-time economic dispatch with non-convex constraints and anytime participation",
+      "authors": "Jinsung Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Jinsung Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2020,
+      "date_parts": [
+        2020,
+        12
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "International Journal of Electrical Power & Energy Systems",
+      "doi": "10.1016/j.ijepes.2020.106217",
+      "url": "https://doi.org/10.1016/j.ijepes.2020.106217",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140196",
+        "https://api.crossref.org/works/10.1016/j.ijepes.2020.106217"
+      ],
+      "orcid_put_code": 206140196,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "123",
+      "pages": "106217"
+    },
+    {
+      "id": "paper-206140177",
+      "title": "Energy-Optimal Regenerative Braking Strategy for Connected and Autonomous Electrified Vehicles: A Practical Design and Implementation for Real-World Commercial PHEVs",
+      "authors": "Dohee Kim, Jeongsoo Eo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Dohee Kim",
+        "Jeongsoo Eo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2020,
+      "date_parts": [
+        2020,
+        9,
+        20
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+      "doi": "10.1109/itsc45102.2020.9294753",
+      "url": "https://doi.org/10.1109/itsc45102.2020.9294753",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140177",
+        "https://api.crossref.org/works/10.1109/itsc45102.2020.9294753"
+      ],
+      "orcid_put_code": 206140177,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "1-6"
+    },
+    {
+      "id": "paper-206140184",
+      "title": "Variational Inequality and Distributed Learning for a Bidding Game in Electricity Supply Markets",
+      "authors": "Kwang-Ki K. Kim",
+      "authors_list": [
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2020,
+      "date_parts": [
+        2020
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2020.2992716",
+      "url": "https://doi.org/10.1109/access.2020.2992716",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140184",
+        "https://api.crossref.org/works/10.1109/access.2020.2992716"
+      ],
+      "orcid_put_code": 206140184,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "8",
+      "pages": "92235-92243",
+      "cv_entries": [
+        "cv-journal-20"
+      ]
+    },
+    {
+      "id": "paper-206140120",
+      "title": "Economic Nonlinear Predictive Control for Real-Time Optimal Energy Management of Parallel Hybrid Electric Vehicles",
+      "authors": "Jinsung Kim, Hoonhee Kim, Jinwoo Bae, Dohee Kim, Jeong Soo Eo, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Jinsung Kim",
+        "Hoonhee Kim",
+        "Jinwoo Bae",
+        "Dohee Kim",
+        "Jeong Soo Eo",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2020,
+      "date_parts": [
+        2020
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2020.3027024",
+      "url": "https://doi.org/10.1109/access.2020.3027024",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140120",
+        "https://api.crossref.org/works/10.1109/access.2020.3027024"
+      ],
+      "orcid_put_code": 206140120,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "8",
+      "pages": "177896-177920",
+      "cv_entries": [
+        "cv-journal-19"
+      ]
+    },
+    {
+      "id": "paper-206140142",
+      "title": "Optimization and Convexity of log det(I+KX−1)",
+      "authors": "Kwang-Ki K. Kim",
+      "authors_list": [
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2019,
+      "date_parts": [
+        2019,
+        2,
+        22
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "International Journal of Control, Automation and Systems",
+      "doi": "10.1007/s12555-018-0263-y",
+      "url": "https://doi.org/10.1007/s12555-018-0263-y",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140142",
+        "https://api.crossref.org/works/10.1007/s12555-018-0263-y"
+      ],
+      "orcid_put_code": 206140142,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "17",
+      "issue": "4",
+      "pages": "1067-1070",
+      "cv_entries": [
+        "cv-journal-22"
+      ]
+    },
+    {
+      "id": "paper-206140188",
+      "title": "Distributed Learning Algorithms and Lossless Convex Relaxation for Economic Dispatch with Transmission Losses and Capacity Limits",
+      "authors": "Kwang-Ki K. Kim",
+      "authors_list": [
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2019,
+      "date_parts": [
+        2019,
+        1
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Mathematical Problems in Engineering",
+      "doi": "10.1155/2019/9159851",
+      "url": "https://doi.org/10.1155/2019/9159851",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140188",
+        "https://api.crossref.org/works/10.1155/2019/9159851"
+      ],
+      "orcid_put_code": 206140188,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "2019",
+      "issue": "1",
+      "cv_entries": [
+        "cv-journal-21"
+      ]
+    },
+    {
+      "id": "paper-206140135",
+      "title": "Standard representation and unified stability analysis for dynamic artificial neural network models",
+      "authors": "Kwang-Ki K. Kim, Ernesto Ríos Patrón, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Ernesto Ríos Patrón",
+        "Richard D. Braatz"
+      ],
+      "year": 2018,
+      "date_parts": [
+        2018,
+        2
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Neural Networks",
+      "doi": "10.1016/j.neunet.2017.11.014",
+      "url": "https://doi.org/10.1016/j.neunet.2017.11.014",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140135",
+        "https://api.crossref.org/works/10.1016/j.neunet.2017.11.014"
+      ],
+      "orcid_put_code": 206140135,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "98",
+      "pages": "251-262",
+      "cv_entries": [
+        "cv-journal-23"
+      ]
+    },
+    {
+      "id": "paper-206140146",
+      "title": "Semidefinite Programming Approach to Gaussian Sequential Rate-Distortion Trade-Offs",
+      "authors": "Takashi Tanaka, Kwang-Ki K. Kim, Pablo A. Parrilo, Sanjoy K. Mitter",
+      "authors_list": [
+        "Takashi Tanaka",
+        "Kwang-Ki K. Kim",
+        "Pablo A. Parrilo",
+        "Sanjoy K. Mitter"
+      ],
+      "year": 2017,
+      "date_parts": [
+        2017,
+        4
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Transactions on Automatic Control",
+      "doi": "10.1109/tac.2016.2601148",
+      "url": "https://doi.org/10.1109/tac.2016.2601148",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140146",
+        "https://api.crossref.org/works/10.1109/tac.2016.2601148"
+      ],
+      "orcid_put_code": 206140146,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "62",
+      "issue": "4",
+      "pages": "1896-1910",
+      "cv_entries": [
+        "cv-journal-24"
+      ]
+    },
+    {
+      "id": "paper-206140187",
+      "title": "Regularized maximum likelihood estimation of sparse stochastic monomolecular biochemical reaction networks",
+      "authors": "Hong Jang, Kwang-Ki K. Kim, Richard D. Braatz, R. Bhushan Gopaluni, Jay H. Lee",
+      "authors_list": [
+        "Hong Jang",
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz",
+        "R. Bhushan Gopaluni",
+        "Jay H. Lee"
+      ],
+      "year": 2016,
+      "date_parts": [
+        2016,
+        7
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Computers & Chemical Engineering",
+      "doi": "10.1016/j.compchemeng.2016.03.018",
+      "url": "https://doi.org/10.1016/j.compchemeng.2016.03.018",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140187",
+        "https://api.crossref.org/works/10.1016/j.compchemeng.2016.03.018"
+      ],
+      "orcid_put_code": 206140187,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "90",
+      "pages": "111-120",
+      "cv_entries": [
+        "cv-journal-27"
+      ]
+    },
+    {
+      "id": "paper-206140203",
+      "title": "Robustness analysis, prediction, and estimation for uncertain biochemical networks: An overview",
+      "authors": "Stefan Streif, Kwang-Ki K. Kim, Philipp Rumschinski, Masako Kishida, Dongying Erin Shen, Rolf Findeisen, Richard D. Braatz",
+      "authors_list": [
+        "Stefan Streif",
+        "Kwang-Ki K. Kim",
+        "Philipp Rumschinski",
+        "Masako Kishida",
+        "Dongying Erin Shen",
+        "Rolf Findeisen",
+        "Richard D. Braatz"
+      ],
+      "year": 2016,
+      "date_parts": [
+        2016,
+        6
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Process Control",
+      "doi": "10.1016/j.jprocont.2016.03.004",
+      "url": "https://doi.org/10.1016/j.jprocont.2016.03.004",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140203",
+        "https://api.crossref.org/works/10.1016/j.jprocont.2016.03.004"
+      ],
+      "orcid_put_code": 206140203,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "42",
+      "pages": "14-34",
+      "cv_entries": [
+        "cv-journal-26"
+      ]
+    },
+    {
+      "id": "paper-206140166",
+      "title": "Robust static and fixed‐order dynamic output feedback control of discrete‐time parametric uncertain Luré systems: Sequential SDP relaxation approaches",
+      "authors": "Kwang‐Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang‐Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2017,
+      "date_parts": [
+        2017,
+        1
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Optimal Control Applications and Methods",
+      "doi": "10.1002/oca.2241",
+      "url": "https://doi.org/10.1002/oca.2241",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140166",
+        "https://api.crossref.org/works/10.1002/oca.2241"
+      ],
+      "orcid_put_code": 206140166,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "38",
+      "issue": "1",
+      "pages": "36-58",
+      "online_year": 2016,
+      "year_basis": "Publisher issue publication date (published-print), rather than early online date.",
+      "cv_entries": [
+        "cv-journal-25"
+      ]
+    },
+    {
+      "id": "paper-206140138",
+      "title": "Multi-agent sequential hypothesis testing",
+      "authors": "Kwang-Ki K. Kim, Jeff S. Shamma",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Jeff S. Shamma"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "53rd IEEE Conference on Decision and Control",
+      "doi": "10.1109/cdc.2014.7039682",
+      "url": "https://doi.org/10.1109/cdc.2014.7039682",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140138",
+        "https://api.crossref.org/works/10.1109/cdc.2014.7039682"
+      ],
+      "orcid_put_code": 206140138,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "1942-1947"
+    },
+    {
+      "id": "paper-206140159",
+      "title": "Necessary and sufficient conditions for robust reliable control in the presence of model uncertainties and system component failures",
+      "authors": "Kwang-Ki K. Kim, Sigurd Skogestad, Manfred Morari, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Sigurd Skogestad",
+        "Manfred Morari",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        11
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Computers & Chemical Engineering",
+      "doi": "10.1016/j.compchemeng.2014.07.023",
+      "url": "https://doi.org/10.1016/j.compchemeng.2014.07.023",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140159",
+        "https://api.crossref.org/works/10.1016/j.compchemeng.2014.07.023"
+      ],
+      "orcid_put_code": 206140159,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "70",
+      "pages": "67-77",
+      "cv_entries": [
+        "cv-journal-31"
+      ]
+    },
+    {
+      "id": "paper-206140200",
+      "title": "Computational complexity and related topics of robustness margin calculation using μ theory: A review of theoretical developments",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        11
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Computers & Chemical Engineering",
+      "doi": "10.1016/j.compchemeng.2013.09.018",
+      "url": "https://doi.org/10.1016/j.compchemeng.2013.09.018",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140200",
+        "https://api.crossref.org/works/10.1016/j.compchemeng.2013.09.018"
+      ],
+      "orcid_put_code": 206140200,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "70",
+      "pages": "122-132",
+      "cv_entries": [
+        "cv-journal-34"
+      ]
+    },
+    {
+      "id": "paper-206140186",
+      "title": "Sparse identification in chemical master equations for monomolecular reaction networks",
+      "authors": "Kwang-Ki K. Kim, Hong Jang, R. Bhushan Gopaluni, Jay H. Lee, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Hong Jang",
+        "R. Bhushan Gopaluni",
+        "Jay H. Lee",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        6
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2014 American Control Conference",
+      "doi": "10.1109/acc.2014.6859312",
+      "url": "https://doi.org/10.1109/acc.2014.6859312",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140186",
+        "https://api.crossref.org/works/10.1109/acc.2014.6859312"
+      ],
+      "orcid_put_code": 206140186,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "3698-3703"
+    },
+    {
+      "id": "paper-206140171",
+      "title": "Fast moving horizon estimation for a two-dimensional distributed parameter system",
+      "authors": "Hong Jang, Jay H. Lee, Richard D. Braatz, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Hong Jang",
+        "Jay H. Lee",
+        "Richard D. Braatz",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        4
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Computers & Chemical Engineering",
+      "doi": "10.1016/j.compchemeng.2013.12.005",
+      "url": "https://doi.org/10.1016/j.compchemeng.2013.12.005",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140171",
+        "https://api.crossref.org/works/10.1016/j.compchemeng.2013.12.005"
+      ],
+      "orcid_put_code": 206140171,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "63",
+      "pages": "159-172",
+      "cv_entries": [
+        "cv-journal-28"
+      ]
+    },
+    {
+      "id": "paper-206140121",
+      "title": "Modification of Crystal Shape through Deep Temperature Cycling",
+      "authors": "Mo Jiang, Xiaoxiang Zhu, Mark C. Molaro, Michael L. Rasche, Haitao Zhang, Keith Chadwick, Davide M. Raimondo, Kwang-Ki K. Kim, Lifang Zhou, Zhilong Zhu, Min Hao Wong, Des O’Grady, Dominique Hebrault, John Tedesco, Richard D. Braatz",
+      "authors_list": [
+        "Mo Jiang",
+        "Xiaoxiang Zhu",
+        "Mark C. Molaro",
+        "Michael L. Rasche",
+        "Haitao Zhang",
+        "Keith Chadwick",
+        "Davide M. Raimondo",
+        "Kwang-Ki K. Kim",
+        "Lifang Zhou",
+        "Zhilong Zhu",
+        "Min Hao Wong",
+        "Des O’Grady",
+        "Dominique Hebrault",
+        "John Tedesco",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        2,
+        13
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Industrial & Engineering Chemistry Research",
+      "doi": "10.1021/ie400859d",
+      "url": "https://doi.org/10.1021/ie400859d",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140121",
+        "https://api.crossref.org/works/10.1021/ie400859d"
+      ],
+      "orcid_put_code": 206140121,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "53",
+      "issue": "13",
+      "pages": "5325-5336",
+      "cv_entries": [
+        "cv-journal-30"
+      ]
+    },
+    {
+      "id": "paper-206140201",
+      "title": "Analysis of a synthetic gene switching motif: Systems and control approaches",
+      "authors": "Kwang-Ki K. Kim, Kim Seng Cheong, Kejia Chen, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Kim Seng Cheong",
+        "Kejia Chen",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        2
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Process Control",
+      "doi": "10.1016/j.jprocont.2013.12.004",
+      "url": "https://doi.org/10.1016/j.jprocont.2013.12.004",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140201",
+        "https://api.crossref.org/works/10.1016/j.jprocont.2013.12.004"
+      ],
+      "orcid_put_code": 206140201,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "24",
+      "issue": "2",
+      "pages": "341-347",
+      "cv_entries": [
+        "cv-journal-29"
+      ]
+    },
+    {
+      "id": "paper-206140095",
+      "title": "Regularized maximum likelihood estimation of sparse stochastic monomolecular biochemical reaction networks",
+      "authors": "H. Jang, K.-K.K. Kim, J.H. Lee, R.D. Braatz",
+      "authors_list": [
+        "H. Jang",
+        "K.-K.K. Kim",
+        "J.H. Lee",
+        "R.D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IFAC Proceedings Volumes IFAC Papersonline",
+      "doi": null,
+      "url": "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140095",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140095"
+      ],
+      "orcid_put_code": 206140095,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "metadata_note": "Author names reproduced as provided by the public ORCID record; some given names are initials.",
+      "url_label": "ORCID record"
+    },
+    {
+      "id": "paper-206140164",
+      "title": "Robustness Analysis, Prediction and Estimation for Uncertain Biochemical Networks",
+      "authors": "Stefan Streif, Kwang-Ki K. Kim, Philipp Rumschinski, Masako Kishida, Dongying Erin Shen, Rolf Findeisen, Richard D Braatz",
+      "authors_list": [
+        "Stefan Streif",
+        "Kwang-Ki K. Kim",
+        "Philipp Rumschinski",
+        "Masako Kishida",
+        "Dongying Erin Shen",
+        "Rolf Findeisen",
+        "Richard D Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IFAC Proceedings Volumes",
+      "doi": "10.3182/20131218-3-in-2045.00190",
+      "url": "https://doi.org/10.3182/20131218-3-in-2045.00190",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140164",
+        "https://api.crossref.org/works/10.3182/20131218-3-in-2045.00190"
+      ],
+      "orcid_put_code": 206140164,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "46",
+      "issue": "32",
+      "pages": "1-20"
+    },
+    {
+      "id": "paper-206140133",
+      "title": "Computational complexity of robust control: A review of theoretical and algorithmic developments",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "52nd IEEE Conference on Decision and Control",
+      "doi": "10.1109/cdc.2013.6760900",
+      "url": "https://doi.org/10.1109/cdc.2013.6760900",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140133",
+        "https://api.crossref.org/works/10.1109/cdc.2013.6760900"
+      ],
+      "orcid_put_code": 206140133,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "6391-6396"
+    },
+    {
+      "id": "paper-206140183",
+      "title": "A characterization of solutions for general copositive quadratic Lyapunov inequalities",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "52nd IEEE Conference on Decision and Control",
+      "doi": "10.1109/cdc.2013.6760403",
+      "url": "https://doi.org/10.1109/cdc.2013.6760403",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140183",
+        "https://api.crossref.org/works/10.1109/cdc.2013.6760403"
+      ],
+      "orcid_put_code": 206140183,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "3397-3402"
+    },
+    {
+      "id": "paper-206140140",
+      "title": "Wiener's Polynomial Chaos for the Analysis and Control of Nonlinear Dynamical Systems with Probabilistic Uncertainties [Historical Perspectives]",
+      "authors": "K.-K.K. Kim, D.E. Shen, Z.K. Nagy, R.D. Braatz",
+      "authors_list": [
+        "K.-K.K. Kim",
+        "D.E. Shen",
+        "Z.K. Nagy",
+        "R.D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        10
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "IEEE Control Systems",
+      "doi": "10.1109/mcs.2013.2270410",
+      "url": "https://doi.org/10.1109/mcs.2013.2270410",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140140",
+        "https://api.crossref.org/works/10.1109/mcs.2013.2270410"
+      ],
+      "orcid_put_code": 206140140,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "33",
+      "issue": "5",
+      "pages": "58-67",
+      "cv_entries": [
+        "cv-journal-35"
+      ]
+    },
+    {
+      "id": "paper-206140167",
+      "title": "Multi-Criteria Optimization for Filter Design of L1 Adaptive Control",
+      "authors": "Kwang-Ki K. Kim, Naira Hovakimyan",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Naira Hovakimyan"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        5
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Optimization Theory and Applications",
+      "doi": "10.1007/s10957-013-0412-7",
+      "url": "https://doi.org/10.1007/s10957-013-0412-7",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140167",
+        "https://api.crossref.org/works/10.1007/s10957-013-0412-7"
+      ],
+      "orcid_put_code": 206140167,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "161",
+      "issue": "2",
+      "pages": "557-581",
+      "online_year": 2013,
+      "year_basis": "Publisher issue publication date (published-print), rather than early online date.",
+      "cv_entries": [
+        "cv-journal-33"
+      ]
+    },
+    {
+      "id": "paper-206140178",
+      "title": "Generalised polynomial chaos expansion approaches to approximate stochastic model predictive control†",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        8
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "International Journal of Control",
+      "doi": "10.1080/00207179.2013.801082",
+      "url": "https://doi.org/10.1080/00207179.2013.801082",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140178",
+        "https://api.crossref.org/works/10.1080/00207179.2013.801082"
+      ],
+      "orcid_put_code": 206140178,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "86",
+      "issue": "8",
+      "pages": "1324-1337",
+      "cv_entries": [
+        "cv-journal-36"
+      ]
+    },
+    {
+      "id": "paper-206140182",
+      "title": "Semidefinite programming relaxation of optimum active input design for fault detection and diagnosis: Model-based finite horizon prediction",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        7
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2013 European Control Conference (ECC)",
+      "doi": "10.23919/ecc.2013.6669496",
+      "url": "https://doi.org/10.23919/ecc.2013.6669496",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140182",
+        "https://api.crossref.org/works/10.23919/ecc.2013.6669496"
+      ],
+      "orcid_put_code": 206140182,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "1934-1939"
+    },
+    {
+      "id": "paper-206140204",
+      "title": "Optimum input design for fault detection and diagnosis: Model-based prediction and statistical distance measures",
+      "authors": "Kwang-Ki K. Kim, Davide M. Raimondo, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Davide M. Raimondo",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        7
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2013 European Control Conference (ECC)",
+      "doi": "10.23919/ecc.2013.6669785",
+      "url": "https://doi.org/10.23919/ecc.2013.6669785",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140204",
+        "https://api.crossref.org/works/10.23919/ecc.2013.6669785"
+      ],
+      "orcid_put_code": 206140204,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "1940-1945"
+    },
+    {
+      "id": "paper-206140096",
+      "title": "Robustness analysis of uncertain linear descriptor systems: Unified approaches using gLFTs, LMIs, and μ",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        6
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2013 American Control Conference",
+      "doi": "10.1109/acc.2013.6580756",
+      "url": "https://doi.org/10.1109/acc.2013.6580756",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140096",
+        "https://api.crossref.org/works/10.1109/acc.2013.6580756"
+      ],
+      "orcid_put_code": 206140096,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "5857-5862"
+    },
+    {
+      "id": "paper-206140172",
+      "title": "Convex relaxation of sequential optimal input design for a class of structured large-scale systems: process gain estimation",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2013,
+      "date_parts": [
+        2013,
+        6
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2013 American Control Conference",
+      "doi": "10.1109/acc.2013.6580436",
+      "url": "https://doi.org/10.1109/acc.2013.6580436",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140172",
+        "https://api.crossref.org/works/10.1109/acc.2013.6580436"
+      ],
+      "orcid_put_code": 206140172,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "3906-3911"
+    },
+    {
+      "id": "paper-206140169",
+      "title": "Observer-based output feedback control of discrete-time Luré systems with sector-bounded slope-restricted nonlinearities",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2014,
+      "date_parts": [
+        2014,
+        11,
+        10
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "International Journal of Robust and Nonlinear Control",
+      "doi": "10.1002/rnc.3003",
+      "url": "https://doi.org/10.1002/rnc.3003",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140169",
+        "https://api.crossref.org/works/10.1002/rnc.3003"
+      ],
+      "orcid_put_code": 206140169,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "24",
+      "issue": "16",
+      "pages": "2458-2472",
+      "online_year": 2013,
+      "year_basis": "Publisher issue publication date (published-print), rather than early online date.",
+      "cv_entries": [
+        "cv-journal-32"
+      ]
+    },
+    {
+      "id": "paper-206140162",
+      "title": "Continuous- and discrete-time D-stability, joint D-stability, and their applications: μ theory and diagonal stability approaches",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2012 IEEE 51st IEEE Conference on Decision and Control (CDC)",
+      "doi": "10.1109/cdc.2012.6426018",
+      "url": "https://doi.org/10.1109/cdc.2012.6426018",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140162",
+        "https://api.crossref.org/works/10.1109/cdc.2012.6426018"
+      ],
+      "orcid_put_code": 206140162,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "2896-2901"
+    },
+    {
+      "id": "paper-206140168",
+      "title": "Generalized polynomial chaos expansion approaches to approximate stochastic receding horizon control with applications to probabilistic collision checking and avoidance",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012,
+        10
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2012 IEEE International Conference on Control Applications",
+      "doi": "10.1109/cca.2012.6402473",
+      "url": "https://doi.org/10.1109/cca.2012.6402473",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140168",
+        "https://api.crossref.org/works/10.1109/cca.2012.6402473"
+      ],
+      "orcid_put_code": 206140168,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "350-355"
+    },
+    {
+      "id": "paper-206140113",
+      "title": "Robust nonlinear internal model control of stable Wiener systems",
+      "authors": "Kwang-Ki Kevin Kim, Ernesto Ríos-Patrón, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki Kevin Kim",
+        "Ernesto Ríos-Patrón",
+        "Richard D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012,
+        9
+      ],
+      "status": "Published",
+      "type": "Journal",
+      "venue": "Journal of Process Control",
+      "doi": "10.1016/j.jprocont.2012.01.019",
+      "url": "https://doi.org/10.1016/j.jprocont.2012.01.019",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140113",
+        "https://api.crossref.org/works/10.1016/j.jprocont.2012.01.019"
+      ],
+      "orcid_put_code": 206140113,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "22",
+      "issue": "8",
+      "pages": "1468-1477",
+      "cv_entries": [
+        "cv-journal-37"
+      ]
+    },
+    {
+      "id": "paper-206140117",
+      "title": "Convex Stability Conditions for Interconnected/Networked Linear Multi-agent Systems",
+      "authors": "Kwang-Ki K. Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012,
+        9
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IFAC Proceedings Volumes",
+      "doi": "10.3182/20120914-2-us-4030.00010",
+      "url": "https://doi.org/10.3182/20120914-2-us-4030.00010",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140117",
+        "https://api.crossref.org/works/10.3182/20120914-2-us-4030.00010"
+      ],
+      "orcid_put_code": 206140117,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "45",
+      "issue": "26",
+      "pages": "222-227"
+    },
+    {
+      "id": "paper-206140098",
+      "title": "Probabilistic analysis and control of uncertain dynamic systems: Generalized polynomial chaos expansion approaches",
+      "authors": "Kwang Ki Kevin Kim, R. D. Braatz",
+      "authors_list": [
+        "Kwang Ki Kevin Kim",
+        "R. D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012,
+        6
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2012 American Control Conference (ACC)",
+      "doi": "10.1109/acc.2012.6314853",
+      "url": "https://doi.org/10.1109/acc.2012.6314853",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140098",
+        "https://api.crossref.org/works/10.1109/acc.2012.6314853"
+      ],
+      "orcid_put_code": 206140098,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "44-49"
+    },
+    {
+      "id": "paper-206140107",
+      "title": "Parameter Estimation, Analysis, and Design of Synthetic Gene Switching Models: System Behavior- and Performance-based Approaches",
+      "authors": "Kwang-Ki K. Kim, Kim Seng Cheong, Kejia Chen, Richard D. Braatz",
+      "authors_list": [
+        "Kwang-Ki K. Kim",
+        "Kim Seng Cheong",
+        "Kejia Chen",
+        "Richard D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IFAC Proceedings Volumes",
+      "doi": "10.3182/20120710-4-sg-2026.00201",
+      "url": "https://doi.org/10.3182/20120710-4-sg-2026.00201",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140107",
+        "https://api.crossref.org/works/10.3182/20120710-4-sg-2026.00201"
+      ],
+      "orcid_put_code": 206140107,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "45",
+      "issue": "15",
+      "pages": "946-951"
+    },
+    {
+      "id": "paper-206140097",
+      "title": "Fast moving horizon estimation for a distributed parameter system",
+      "authors": "H. Jang, K.-K.K. Kim, J.H. Lee, R.D. Braatz",
+      "authors_list": [
+        "H. Jang",
+        "K.-K.K. Kim",
+        "J.H. Lee",
+        "R.D. Braatz"
+      ],
+      "year": 2012,
+      "date_parts": [
+        2012
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "International Conference on Control Automation and Systems",
+      "doi": null,
+      "url": "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140097",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140097"
+      ],
+      "orcid_put_code": 206140097,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "metadata_note": "Author names reproduced as provided by the public ORCID record; some given names are initials.",
+      "url_label": "ORCID record"
+    },
+    {
+      "id": "paper-206140197",
+      "title": "Filter Design for ℒ1 Adaptive Output-Feedback Controller",
+      "authors": "Kwang Ki Kevin Kim, Evgeny Kharisov, Naira Hovakimyan",
+      "authors_list": [
+        "Kwang Ki Kevin Kim",
+        "Evgeny Kharisov",
+        "Naira Hovakimyan"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011,
+        12
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IEEE Conference on Decision and Control and European Control Conference",
+      "doi": "10.1109/cdc.2011.6161476",
+      "url": "https://doi.org/10.1109/cdc.2011.6161476",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140197",
+        "https://api.crossref.org/works/10.1109/cdc.2011.6161476"
+      ],
+      "orcid_put_code": 206140197,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "5653-5658"
+    },
+    {
+      "id": "paper-206140173",
+      "title": "Universal approximation with error bounds for dynamic artificial neural network models: A tutorial and some new results",
+      "authors": "Kwang Ki Kevin Kim, Ernesto Rios Patron, Richard D. Braatz",
+      "authors_list": [
+        "Kwang Ki Kevin Kim",
+        "Ernesto Rios Patron",
+        "Richard D. Braatz"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011,
+        9
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2011 IEEE International Symposium on Computer-Aided Control System Design (CACSD)",
+      "doi": "10.1109/cacsd.2011.6044542",
+      "url": "https://doi.org/10.1109/cacsd.2011.6044542",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140173",
+        "https://api.crossref.org/works/10.1109/cacsd.2011.6044542"
+      ],
+      "orcid_put_code": 206140173,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "834-839"
+    },
+    {
+      "id": "paper-206140194",
+      "title": "Standard representation and stability analysis of dynamic artificial neural networks: A unified approach",
+      "authors": "Kwang Ki Kevin Kim, Ernesto Rios Patron, Richard D. Braatz",
+      "authors_list": [
+        "Kwang Ki Kevin Kim",
+        "Ernesto Rios Patron",
+        "Richard D. Braatz"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011,
+        9
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "2011 IEEE International Symposium on Computer-Aided Control System Design (CACSD)",
+      "doi": "10.1109/cacsd.2011.6044536",
+      "url": "https://doi.org/10.1109/cacsd.2011.6044536",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140194",
+        "https://api.crossref.org/works/10.1109/cacsd.2011.6044536"
+      ],
+      "orcid_put_code": 206140194,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "840-845"
+    },
+    {
+      "id": "paper-206140111",
+      "title": "Observer-based output feedback control of discrete-time Lur'e systems with sector-bounded slope-restricted nonlinearities",
+      "authors": "Kwang Ki Kevin Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang Ki Kevin Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011,
+        6
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "Proceedings of the 2011 American Control Conference",
+      "doi": "10.1109/acc.2011.5990631",
+      "url": "https://doi.org/10.1109/acc.2011.5990631",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140111",
+        "https://api.crossref.org/works/10.1109/acc.2011.5990631"
+      ],
+      "orcid_put_code": 206140111,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "pages": "2566-2571"
+    },
+    {
+      "id": "paper-206140179",
+      "title": "Robust Static and Fixed-order Dynamic Output Feedback Control of Discrete-time Lur'e Systems",
+      "authors": "Kwang Ki, Kevin Kim, Richard D. Braatz",
+      "authors_list": [
+        "Kwang Ki",
+        "Kevin Kim",
+        "Richard D. Braatz"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011,
+        1
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "IFAC Proceedings Volumes",
+      "doi": "10.3182/20110828-6-it-1002.01689",
+      "url": "https://doi.org/10.3182/20110828-6-it-1002.01689",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140179",
+        "https://api.crossref.org/works/10.3182/20110828-6-it-1002.01689"
+      ],
+      "orcid_put_code": 206140179,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "volume": "44",
+      "issue": "1",
+      "pages": "227-232"
+    },
+    {
+      "id": "paper-206140099",
+      "title": "Limiting behavior of L1 adaptive controllers",
+      "authors": "E. Kharisov, K.K.K. Kim, X. Wang, N. Hovakimyan",
+      "authors_list": [
+        "E. Kharisov",
+        "K.K.K. Kim",
+        "X. Wang",
+        "N. Hovakimyan"
+      ],
+      "year": 2011,
+      "date_parts": [
+        2011
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "AIAA Guidance Navigation and Control Conference 2011",
+      "doi": null,
+      "url": "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140099",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140099"
+      ],
+      "orcid_put_code": 206140099,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available.",
+      "metadata_note": "Author names reproduced as provided by the public ORCID record; some given names are initials.",
+      "url_label": "ORCID record"
+    },
+    {
+      "id": "paper-206140189",
+      "title": "Development of Verification and Validation Approaches for L1 Adaptive Control: Multi-Criteria Optimization for Filter Design",
+      "authors": "Kwang Ki Kim, Naira Hovakimyan",
+      "authors_list": [
+        "Kwang Ki Kim",
+        "Naira Hovakimyan"
+      ],
+      "year": 2010,
+      "date_parts": [
+        2010,
+        6,
+        26
+      ],
+      "status": "Published",
+      "type": "Conference",
+      "venue": "AIAA Guidance, Navigation, and Control Conference",
+      "doi": "10.2514/6.2010-7691",
+      "url": "https://doi.org/10.2514/6.2010-7691",
+      "provenance": [
+        "https://pub.orcid.org/v3.0/0000-0002-0499-7253/work/206140189",
+        "https://api.crossref.org/works/10.2514/6.2010-7691"
+      ],
+      "orcid_put_code": 206140189,
+      "identity_evidence": "Listed on ORCID 0000-0002-0499-7253; publisher metadata used when available."
+    },
+    {
+      "id": "gpu-mppi-smoothing-iccas-2025",
+      "title": "GPU-Accelerated MPPI Smoothing for Real-Time UWB-IMU Localization in Aerial Robotics",
+      "authors": "Yonghee Kim, Kwang-Ki K. Kim",
+      "authors_list": [
+        "Yonghee Kim",
+        "Kwang-Ki K. Kim"
+      ],
+      "year": 2025,
+      "venue": "2025 25th International Conference on Control, Automation and Systems (ICCAS)",
+      "type": "Conference",
+      "status": "Presented",
+      "presentation_type": "Oral presentation",
+      "doi": null,
+      "url": null,
+      "provenance": [
+        "User-provided CV, June 2026, active conference entry5"
+      ],
+      "field_provenance": {
+        "title_authors_year_status": "User-provided CV active entry (parent/source-audit extraction)",
+        "title_venue_year": "Public R&D Circle lab conference record; secondary corroboration, not publisher metadata"
+      },
+      "notes": [
+        "No DOI or published proceedings record was verified. Treat as a conference oral presentation, not as confirmed proceedings publication.",
+        "Official conference-program search did not recover this title. Author names and oral-presentation status are supplied by the user CV."
+      ],
+      "cv_entries": [
+        "cv-conference-05"
+      ]
+    },
+    {
+      "id": "transformerhympc-iccas-2025",
+      "title": "TransformerHyMPC: Learning to Accelerate Hybrid Model Predictive Control",
+      "authors": "Seungjun Yoo, Minwoo Gwon, Kwangki Kim",
+      "authors_list": [
+        "Seungjun Yoo",
+        "Minwoo Gwon",
+        "Kwangki Kim"
+      ],
+      "year": 2025,
+      "venue": "2025 25th International Conference on Control, Automation and Systems (ICCAS)",
+      "type": "Conference",
+      "status": "Presented",
+      "presentation_type": "Oral presentation",
+      "presentation_date": "2025-11-06",
+      "paper_code": "ThAT8.6",
+      "doi": null,
+      "url": "https://ras.papercept.net/conferences/scripts/rtf/ICCAS25_ContentListWeb_3.html",
+      "url_label": "Conference program",
+      "provenance": [
+        "https://ras.papercept.net/conferences/scripts/rtf/ICCAS25_ContentListWeb_3.html",
+        "user-provided CV: upload/kwangki-cv.tex"
+      ],
+      "field_provenance": {
+        "title_authors_venue_year_session": "Official ICCAS2025 Thursday program, 10:15–10:30, Paper ThAT8.6. All three authors have Inha University affiliation.",
+        "status": "User-provided CV active entry says Oral Presentation; official program confirms scheduled oral session"
+      },
+      "notes": [
+        "Official program includes coauthor Minwoo Gwon, omitted from the user CV entry. Program order and spellings retained here.",
+        "No DOI or published proceedings record was verified. Treat as a conference oral presentation, not as confirmed proceedings publication."
+      ],
+      "cv_entries": [
+        "cv-conference-07"
+      ]
+    },
+    {
+      "id": "2021-kim-decentralized-lq",
+      "title": "Data-Driven Decentralized LQ Optimal Control for Multi-zone Building HVAC Systems",
+      "authors": "Min-Gyeom Kim, Jin-Woo Bae, Kwang-Ki Kim",
+      "authors_list": [
+        "Min-Gyeom Kim",
+        "Jin-Woo Bae",
+        "Kwang-Ki Kim"
+      ],
+      "year": 2021,
+      "date_parts": [
+        2021,
+        4
+      ],
+      "venue": "KIEE Magazine (전기의 세계)",
+      "type": "Magazine",
+      "status": "Published",
+      "volume": "70",
+      "issue": "4",
+      "pages": "15–29",
+      "doi": null,
+      "url": "https://www.kiee.or.kr/upload/board_files/upfile_210408132323503.pdf",
+      "url_label": "Publisher issue (PDF)",
+      "provenance": [
+        "https://www.kiee.or.kr/upload/board_files/upfile_210408132323503.pdf",
+        "https://github.com/coralab-inha/coralab-inha.github.io/blob/3efc90a357dffcf18b4ea07809c5ab0f7510ab9f/_papers/2021-kim-decentralized-lq.md",
+        "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10542277"
+      ],
+      "verification": "The April 2021 publisher issue identifies the contribution as a feature in KIEE Magazine. Title and author spellings follow the bilingual article heading on page 15.",
+      "verified_date": "2026-11-19"
+    }
+  ]
+}
